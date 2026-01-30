@@ -37,10 +37,10 @@ const CounterOne: React.FC = () => {
                             </div>
                             <div className="counter-one__content">
                                 <div className="counter-one__count-box">
-                                    <p ><AdvanceCountUp ending={98} /></p>
+                                    <p ><AdvanceCountUp ending={99} /></p>
                                     <span>%</span>
                                 </div>
-                                <p className="counter-one__count-text">Trusted by happy Customer!</p>
+                                <p className="counter-one__count-text"> Client Satisfaction Rate!</p>
                             </div>
                         </div>
                     </li>

@@ -1,6 +1,6 @@
 "use client";
 import React, { useContext, useEffect, useState } from "react";
-import logo_1 from "../../../public/assets/images/resources/logo-1.png";
+import logo_1 from "../../../public/assets/images/resources/352x54_removebg.png";
 import image2 from "../../../public/assets/images/home-showcase/home-showcase-1-1.jpg";
 import image3 from "../../../public/assets/images/home-showcase/home-showcase-1-2.jpg";
 import image4 from "../../../public/assets/images/home-showcase/home-showcase-1-3.jpg";

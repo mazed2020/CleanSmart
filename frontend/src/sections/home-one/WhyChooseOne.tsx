@@ -57,11 +57,11 @@ const WhyChooseOne: React.FC = () => {
                                             Why Choose Us
                                         </span>
                                     </div>
-                                    <h2 className="section-title__title title-animation">
-                                        <TextAnimation text='What Makes Us the Perfect' textColor='black' />
-                                        <TextAnimation text='Cleaning Partner? Your Clean' textColor='black' />
-                                        <TextAnimation text='Cleaning Partner?' />
-                                        <TextAnimation text='Space, Our Commitment!' />
+                                    <h2 className="section-title__title title-animation" style={{width:"90vh"}}>
+                                        <TextAnimation text='We follow structured cleaning processes ' textColor='black' />
+                                        <TextAnimation text='to ensure spotless, hygienic, and safe environments. ' textColor='black' />
+                                        <TextAnimation text='Every job is completed with attention' />
+                                        <TextAnimation text=' to detail and quality checks!' />
                                     </h2>
                                 </div>
                                 <motion.div
@@ -93,9 +93,7 @@ const WhyChooseOne: React.FC = () => {
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="why-choose-one__img-box-2">
-                                            <div className="why-choose-one__curved-circle-2">
-                                                Cleaning * Moping * Dusting *
-                                            </div>
+                                             
                                             <div className="why-choose-one__img-2">
                                                 <Image src={whych4} alt="" />
                                             </div>
@@ -131,7 +129,7 @@ const WhyChooseOne: React.FC = () => {
                                 }}
                                 viewport={{ once: true, amount: 0.1 }}
                                 className="why-choose-one__right">
-                                <div className="why-choose-one__client-box">
+                                {/* <div className="why-choose-one__client-box">
                                     <div className="why-choose-one__client-content">
                                         <div className="why-choose-one__client-inner">
                                             <h3 className="why-choose-one__client-title">
@@ -188,7 +186,7 @@ const WhyChooseOne: React.FC = () => {
                                             <span className="icon-diagonal-arrow"></span>
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="why-choose-one__right-bottom">
                                     <ul className="row list-unstyled">
                                         {/*Why Choose One Single Start*/}
@@ -281,9 +279,9 @@ const WhyChooseOne: React.FC = () => {
                                             <span className="icon-support"></span>
                                         </div>
                                         <div className="why-choose-one__content">
-                                            <p>Sun - Fri & 10:00 AM - 8:00 PM</p>
+                                            <p>  10:00 AM - 8:00 PM</p>
                                             <h4>
-                                                <Link href="#" onClick={handlePhone}>12 (00) 456 78910</Link>
+                                                <Link href="#" onClick={handlePhone}>0435 139 276</Link>
                                             </h4>
                                         </div>
                                     </div>

@@ -18,7 +18,7 @@ interface Pricing {
 const pricingData: Pricing[] = [
     {
         id: 1,
-        packageName: "Standard",
+        packageName: "Residential Cleaning",
         price: "220.00",
         validity: "/Monthly",
         description: "Achieve a Pristine Office Environment in Just 4 Hours!",
@@ -64,70 +64,70 @@ const pricingData: Pricing[] = [
             "Flexible Scheduling"
         ]
     },
-    {
-        id: 4,
-        packageName: "Standard",
-        price: "220.00",
-        validity: "/Monthly",
-        description: "Achieve a Pristine Office Environment in Just 4 Hours!",
-        badge: "Recommended",
-        isHighlighted: false,
-        features: [
-            "Eco-Friendly Cleaning Products",
-            "Flexible Scheduling",
-            "Highly Trained Professionals",
-            "Customized Cleaning Plans",
-            "Flexible Scheduling"
-        ]
-    },
-    {
-        id: 5,
-        packageName: "PREMIUM",
-        price: "240.00",
-        validity: "/Yearly",
-        description: "Transform Your Home Into a Fresh Haven in Just 2 Hours!",
-        badge: "Recommended",
-        isHighlighted: true,
-        features: [
-            "Advanced Cleaning Equipment",
-            "Affordable Service Packages",
-            "Satisfaction Guaranteed",
-            "Quick Response Team",
-            "Trusted Local Professionals"
-        ]
-    },
-    {
-        id: 6,
-        packageName: "BUSINESS",
-        price: "350.00",
-        validity: "/Weekly",
-        description: "Get Spotless Interiors and a Perfect Shine in Only 3 Hours!",
-        badge: "Recommended",
-        isHighlighted: false,
-        features: [
-            "Pet-Friendly Cleaning Solutions",
-            "Non-Toxic Cleaning Supplies",
-            "Experienced Cleaning Experts",
-            "24/7 Customer Support in the",
-            "Flexible Scheduling"
-        ]
-    },
-    {
-        id: 7,
-        packageName: "PREMIUM",
-        price: "240.00",
-        validity: "/Yearly",
-        description: "Transform Your Home Into a Fresh Haven in Just 2 Hours!",
-        badge: "Recommended",
-        isHighlighted: true,
-        features: [
-            "Advanced Cleaning Equipment",
-            "Affordable Service Packages",
-            "Satisfaction Guaranteed",
-            "Quick Response Team",
-            "Trusted Local Professionals"
-        ]
-    }
+    // {
+    //     id: 4,
+    //     packageName: "Standard",
+    //     price: "220.00",
+    //     validity: "/Monthly",
+    //     description: "Achieve a Pristine Office Environment in Just 4 Hours!",
+    //     badge: "Recommended",
+    //     isHighlighted: false,
+    //     features: [
+    //         "Eco-Friendly Cleaning Products",
+    //         "Flexible Scheduling",
+    //         "Highly Trained Professionals",
+    //         "Customized Cleaning Plans",
+    //         "Flexible Scheduling"
+    //     ]
+    // },
+    // {
+    //     id: 5,
+    //     packageName: "PREMIUM",
+    //     price: "240.00",
+    //     validity: "/Yearly",
+    //     description: "Transform Your Home Into a Fresh Haven in Just 2 Hours!",
+    //     badge: "Recommended",
+    //     isHighlighted: true,
+    //     features: [
+    //         "Advanced Cleaning Equipment",
+    //         "Affordable Service Packages",
+    //         "Satisfaction Guaranteed",
+    //         "Quick Response Team",
+    //         "Trusted Local Professionals"
+    //     ]
+    // },
+    // {
+    //     id: 6,
+    //     packageName: "BUSINESS",
+    //     price: "350.00",
+    //     validity: "/Weekly",
+    //     description: "Get Spotless Interiors and a Perfect Shine in Only 3 Hours!",
+    //     badge: "Recommended",
+    //     isHighlighted: false,
+    //     features: [
+    //         "Pet-Friendly Cleaning Solutions",
+    //         "Non-Toxic Cleaning Supplies",
+    //         "Experienced Cleaning Experts",
+    //         "24/7 Customer Support in the",
+    //         "Flexible Scheduling"
+    //     ]
+    // },
+    // {
+    //     id: 7,
+    //     packageName: "PREMIUM",
+    //     price: "240.00",
+    //     validity: "/Yearly",
+    //     description: "Transform Your Home Into a Fresh Haven in Just 2 Hours!",
+    //     badge: "Recommended",
+    //     isHighlighted: true,
+    //     features: [
+    //         "Advanced Cleaning Equipment",
+    //         "Affordable Service Packages",
+    //         "Satisfaction Guaranteed",
+    //         "Quick Response Team",
+    //         "Trusted Local Professionals"
+    //     ]
+    // }
 ];
 const PricingCarouselMain: React.FC = () => {
 
@@ -169,7 +169,7 @@ const PricingCarouselMain: React.FC = () => {
                                         <div className="pricing-two__shape-1">
                                             <Image src={pricingShape} alt="Shape" />
                                         </div>
-                                        <div className="pricing-two__badge">
+                                        <div className="pricing-two__badge"  >
                                             <p>{pricing.badge}</p>
                                         </div>
                                         <div className="pricing-two__pack-name">
@@ -180,11 +180,7 @@ const PricingCarouselMain: React.FC = () => {
                                             <span className="validity">{pricing.validity}</span>
                                         </h3>
                                         <p className="pricing-two__text">{pricing.description}</p>
-                                        <div className="pricing-two__btn-box">
-                                            <Link href="#" className="thm-btn">
-                                                Choose Plan<span><i className="icon-plus"></i></span>
-                                            </Link>
-                                        </div>
+                                        
                                         <div className="pricing-two__points-box">
                                             <ul className="list-unstyled pricing-two__points">
                                                 {pricing.features.map((feature, index) => (
@@ -198,6 +194,11 @@ const PricingCarouselMain: React.FC = () => {
                                                     </li>
                                                 ))}
                                             </ul>
+                                        </div>
+                                        <div className="pricing-two__btn-box">
+                                            <Link href="#" className="thm-btn">
+                                                Choose Plan<span><i className="icon-plus"></i></span>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

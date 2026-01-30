@@ -15,6 +15,7 @@ import TestimonialOne from "@/sections/home-one/TestimonialOne";
 import WhyChooseOne from "@/sections/home-one/WhyChooseOne";
 import PricingPlanTow from "@/sections/home-one/PricingPlanTow";
 import OurBlogTow from "@/sections/home-one/OurBlogTow";
+import PricingCarouselMain from "@/sections/pricing/PricingCarouselMain";
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
       <Banner />
       <SlidingTextOne />
       <AboutTow />
-      <ServiceTwo />
+      <PricingPlanTow />
 
       <SlidingTestTow />
       <CounterOne />
@@ -34,7 +35,7 @@ export default function Home() {
       <TestimonialOne />
       <BrandOne />
       <OfficeLocation />
-      <PricingPlanTow />
+      
       <OurBlogTow />
 
       <FooterOne />

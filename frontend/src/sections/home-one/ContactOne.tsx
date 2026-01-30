@@ -41,16 +41,16 @@ const CONTACT_INFO: ContactInfo[] = [
         id: "email",
         icon: "icon-envelope",
         label: "Send Email",
-        title: "support@mail.com",
-        link: "mailto:support@mail.com",
+        title: "summitsgrp@gmail.com",
+        link: "summitsgrp@gmail.com",
         linkType: "email",
     },
     {
         id: "phone",
         icon: "icon-phone-call",
-        label: "Call Us Any Time",
-        title: "+12 (00) 457 8960",
-        link: "tel:+12004578960",
+        label: "Call Us at",
+        title: "0435 139 276",
+        link: "tel:0435 139 276",
         linkType: "tel",
     },
 ];
@@ -235,10 +235,11 @@ const SectionTitle: FC = () => (
                 <div className="section-title__tagline-shape"></div>
                 <div className="section-title__tagline-shape-2"></div>
             </div>
-            <span className="section-title__tagline">CALL TO ACTION</span>
+            <span className="section-title__tagline"> Ready for a Cleaner, Smarter Space?</span>
         </div>
-        <h2 className="section-title__title title-animation">
-            lets you connect with experts, get advice, advice, and explore solutions
+        <h2 className="section-title__title title-animation" style={{fontSize:"30px"}}>
+        Let CleanSmart Crew handle the cleaning while you focus on what matters most. <br />
+ Get in touch today for a free quote and experience professional cleaning done right.
         </h2>
     </div>
 );
@@ -352,7 +353,7 @@ const ContactForm: FC<ContactFormProps> = ({
                 </div>
                 <div className="contact-one__btn-box">
                     <button type="submit" className="thm-btn" disabled={isSubmitting}>
-                        {isSubmitting ? "Sending..." : "Send Message"}
+                        {isSubmitting ? "Sending..." : "Get a Free Quote"}
                         <span>
                             <i className="icon-diagonal-arrow"></i>
                         </span>

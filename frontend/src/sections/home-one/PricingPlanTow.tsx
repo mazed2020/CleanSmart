@@ -34,28 +34,7 @@ const PricingPlanTow: React.FC = () => {
                 </div>
                 <div className="pricing-two__inner">
                     <div className="pricing-two__main-tab-box tabs-box">
-                        <div className="pricing-two__tab-buttons-box">
-                            <div className="pricing-two__discount-box">
-                                <p>-10% Off</p>
-                            </div>
-                            <div className="pricing-two__discount-shape-1">
-                                <Image src={pricimg3} alt="Discount badge" />
-                            </div>
-                            <ul className="tab-buttons list-unstyled">
-                                <li
-                                    onClick={() => setPricing(false)}
-                                    className={`tab-btn ${!isPricing ? "active-btn" : ""}`}
-                                >
-                                    <span>Monthly</span>
-                                </li>
-                                <li
-                                    onClick={() => setPricing(true)}
-                                    className={`tab-btn ${isPricing ? "active-btn" : ""}`}
-                                >
-                                    <span>Yearly</span>
-                                </li>
-                            </ul>
-                        </div>
+                         
                         <div className="tabs-content">
                             <div
                                 className={`tab ${!isPricing ? "active-tab" : ""}`}

@@ -22,8 +22,9 @@ const Banner: React.FC = () => {
     // Typing effect
     useEffect(() => {
         const typedStrings: string[] = [
-            'Reliable Cleaning Services!',
-            'Making Every Space Shine'
+            'Smart Cleaning',
+            'Spotless Results',
+            'Every Time!'
         ];
         const typeSpeed: number = 100;
         const deleteSpeed: number = 50;
@@ -123,88 +124,34 @@ const Banner: React.FC = () => {
                     <div className="col-xl-6">
                         <div className="banner-one__left">
                             <div className="banner-one__title-box">
+
                                 <h2 className="banner-one__title">
-                                    Making Your Space Shine Easy and <br />
-                                    <span className="typed-effect banner-one__title-color">
+                                <span className="typed-effect banner-one__title-color">
                                         {typedText}
                                         <span className="cursor" style={{
                                             animation: 'blink 1s infinite',
                                             marginLeft: '2px'
                                         }}>|</span>
                                     </span>
+                                    <br />
+                                Cleansmart Crew - Cleaning Solved! <br />
+                                    
                                 </h2>
                             </div>
                             <p className="banner-one__text">
-                                Experience hassle-free, top-quality cleaning services designed
-                                to keep <br /> your home or office spotless and stress-free.
+                            Professional residential and commercial cleaning services designed for modern spaces,
+                             busy lives, and high standards.
                             </p>
-                            <div className="banner-one__btn-box">
+                            <div className="banner-one__btn-box " style={{paddingBottom:"5rem"}}>
                                 <Link href="/contact" className='thm-btn'>
-                                    Get Started
+                                Get a Free Quote
+
                                     <span>
                                         <i className="icon-diagonal-arrow"></i>
                                     </span>
                                 </Link>
                             </div>
-                            <div className="banner-one__satisfied-partner">
-                                <ul className="list-unstyled banner-one__satisfied-partner-list">
-                                    <li>
-                                        <div className="banner-one__satisfied-partner-img">
-                                            <Image
-                                                src={satisfiedPartner1}
-                                                alt="Satisfied partner"
-                                                width={60}
-                                                height={60}
-                                                style={{
-                                                    width: '100%',
-                                                    height: '100%',
-                                                    objectFit: 'cover',
-                                                    borderRadius: '50%'
-                                                }}
-                                            />
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="banner-one__satisfied-partner-img">
-                                            <Image
-                                                src={satisfiedPartner2}
-                                                alt="Satisfied partner"
-                                                width={60}
-                                                height={60}
-                                                style={{
-                                                    width: '100%',
-                                                    height: '100%',
-                                                    objectFit: 'cover',
-                                                    borderRadius: '50%'
-                                                }}
-                                            />
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="banner-one__satisfied-partner-img">
-                                            <Image
-                                                src={satisfiedPartner3}
-                                                alt="Satisfied partner"
-                                                width={60}
-                                                height={60}
-                                                style={{
-                                                    width: '100%',
-                                                    height: '100%',
-                                                    objectFit: 'cover',
-                                                    borderRadius: '50%'
-                                                }}
-                                            />
-                                        </div>
-                                    </li>
-                                </ul>
-                                <div className="banner-one__satisfied-partner-content">
-                                    <div className="banner-one__satisfied-partner-count-box">
-                                        <p className="odometer">{satisfiedCount}</p>
-                                        <span>K+</span>
-                                    </div>
-                                    <p className="banner-one__satisfied-partner-text">Satisfied Partners</p>
-                                </div>
-                            </div>
+                             
                         </div>
                     </div>
                     <div className="col-xl-6">
@@ -231,7 +178,7 @@ const Banner: React.FC = () => {
                                         }}
                                     />
                                 </motion.div>
-                                <div className="banner-one__google-rating">
+                                {/* <div className="banner-one__google-rating">
                                     <div className="banner-one__google-rating-img">
                                         <Image
                                             src={googleRatingImg}
@@ -255,7 +202,7 @@ const Banner: React.FC = () => {
                                             <span>k Ratings</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

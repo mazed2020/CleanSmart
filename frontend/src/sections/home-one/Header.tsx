@@ -5,7 +5,7 @@ import FreshFlowContext from "../../components/context/FreshFlowContext";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import logo_1 from "../../../public/assets/images/resources/logo-1.png";
+import logo_1 from "../../../public/assets/images/resources/352x54_removebg.png";
 
 const Header: React.FC = () => {
   const pathname = usePathname();

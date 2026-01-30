@@ -50,6 +50,7 @@ const TextAnimation: React.FC<Props> = ({ text, textColor }) => {
             style={{
                 whiteSpace: "normal",
                 display: "inline-block",
+                 
                 fontSize: "clamp(16px, 4vw, 32px)", // RESPONSIVE TEXT
                 lineHeight: "1.3"
             }}
@@ -64,7 +65,8 @@ const TextAnimation: React.FC<Props> = ({ text, textColor }) => {
                     key={index}
                     style={{
                         color: textColor ? (textColor === "black" ? "#05173d" : textColor) : "",
-                        display: "inline-block"
+                        display: "inline-block",
+                         
                     }}
                 >
                     {letter === " " ? "\u00A0" : letter}
