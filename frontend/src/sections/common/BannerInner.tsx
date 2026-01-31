@@ -65,8 +65,8 @@ const BannerInner: React.FC<BannerOneProps> = ({
                   </div>
                   <div className="text">
                     <p>
-                      <Link href="mailto:support@example.com">
-                        support@example.com
+                      <Link href="summitsgrp@gmail.com">
+                      summitsgrp@gmail.com
                       </Link>
                     </p>
                   </div>
@@ -77,7 +77,7 @@ const BannerInner: React.FC<BannerOneProps> = ({
                   </div>
                   <div className="text">
                     <p>
-                      <Link href="tel:+121234567890">+12 (123) 456 78900</Link>
+                      <Link href="0435 139 276">0435 139 276</Link>
                     </p>
                   </div>
                 </li>
@@ -86,7 +86,7 @@ const BannerInner: React.FC<BannerOneProps> = ({
                     <i className="icon-pin-1"></i>
                   </div>
                   <div className="text">
-                    <p>684 West College St. Sun City, USA</p>
+                    <p>Melbourne, VIC, Australia</p>
                   </div>
                 </li>
               </ul>

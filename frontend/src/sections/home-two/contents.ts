@@ -1,10 +1,10 @@
 import { Accordion, BlogHomeTow, PricingItem } from "@/types/home-tow";
 import pricContent1 from "../../../public/assets/images/shapes/pricing-two-shape-1.png";
 
-import blogimg1 from "../../../public/assets/images/blog/blog-2-1.jpg"
-import blogimg2 from "../../../public/assets/images/blog/blog-2-2.jpg"
-import blogimg3 from "../../../public/assets/images/blog/blog-2-3.jpg"
-import blogimg4 from "../../../public/assets/images/blog/blog-2-4.jpg"
+import blogimg1 from "../../../public/assets/images/blog/1.1.png"
+import blogimg2 from "../../../public/assets/images/blog/2.1.png"
+import blogimg3 from "../../../public/assets/images/blog/3.1.png"
+import blogimg4 from "../../../public/assets/images/blog/4.1.png"
 
 export const pricingContent: PricingItem[] = [
     {
@@ -172,17 +172,17 @@ export const blogsHomeTow: BlogHomeTow[] = [
         id: 1,
         blogLink: [
             {
-                lin: "/blog-details",
-                text: "#EcoClean"
+                lin: "/blog",
+                text: "#HomeCleaning"
             },
             {
-                lin: "/blog-details",
-                text: "#DeepClean"
+                lin: "/blog",
+                text: "#HealthyLiving"
             },
         ],
         image: blogimg1,
-        titleLink: "/blog-details",
-        title: "10 Tips to Keep Your Home Sparkling & Cleanings",
+        titleLink: "/blog",
+        title: "Why Regular Home Cleaning Improves Your Quality of Life",
         date: "March 23, 2024",
         comment: "12",
         username: "Michael B",
@@ -192,17 +192,17 @@ export const blogsHomeTow: BlogHomeTow[] = [
         id: 2,
         blogLink: [
             {
-                lin: "/blog-details",
-                text: "#Sanitize"
+                lin: "/blog",
+                text: "#EndOfLeaseCleaning"
             },
             {
-                lin: "/blog-details",
-                text: "#DeepClean"
+                lin: "/blog",
+                text: "#BondCleaning"
             },
         ],
         image: blogimg2,
-        titleLink: "/blog-details",
-        title: "How to Get Your Deposit Back Easily",
+        titleLink: "/blog",
+        title: "End of Lease Cleaning: Secure Your Bond with Confidence",
         date: "March 23, 2024",
         comment: "12",
         username: "Michael B",
@@ -212,17 +212,17 @@ export const blogsHomeTow: BlogHomeTow[] = [
         id: 3,
         blogLink: [
             {
-                lin: "/blog-details",
-                text: "#Sparkle"
+                lin: "/blog",
+                text: "#KitchenCleaning"
             },
             {
-                lin: "/blog-details",
-                text: "#Sparkle"
+                lin: "/blog",
+                text: "#HomeHygiene"
             },
         ],
         image: blogimg3,
-        titleLink: "/blog-details",
-        title: "Why Eco-Friendly Cleaning Products Are Better.",
+        titleLink: "/blog",
+        title: "Bathroom Cleaning: More Than Just Visual Cleanliness",
         date: "March 23, 2024",
         comment: "12",
         username: "Michael B",
@@ -232,17 +232,17 @@ export const blogsHomeTow: BlogHomeTow[] = [
         id: 4,
         blogLink: [
             {
-                lin: "/blog-details",
-                text: "#Sanitize"
+                lin: "/blog",
+                text: "#BathroomCleaning"
             },
             {
-                lin: "/blog-details",
-                text: "#EcoClean"
+                lin: "/blog",
+                text: "#SanitisedSpaces"
             },
         ],
         image: blogimg4,
-        titleLink: "/blog-details",
-        title: "The Ultimate Guide to Deep Cleaning Your Home",
+        titleLink: "/blog",
+        title: " Bedroom & Living Area Cleaning for Healthier Homes",
         date: "March 23, 2024",
         comment: "12",
         username: "Michael B",

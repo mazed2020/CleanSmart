@@ -41,15 +41,15 @@ const OurBlogTow: React.FC = () => {
                                     <Image src={item?.image} alt="blog image" />
                                 </div>
                                 <div className="blog-two__content">
-                                    <ul className="list-unstyled blog-two__tags">
+                                    <ul className="list-unstyled blog-two__tags" >
                                         {
-                                            item?.blogLink.map((L, j) => <li key={j}><Link href={L.lin}>{L?.text}</Link></li>)
+                                            item?.blogLink.map((L, j) => <li  key={j}><Link style={{textTransform:"lowercase"}}  href={L.lin}>{L?.text}</Link></li>)
                                         }
                                     </ul>
                                     <h3 className="blog-two__title">
                                         <Link href={item?.titleLink}>{item?.title}</Link>
                                     </h3>
-                                    <ul className="blog-two__meta list-unstyled">
+                                    {/* <ul className="blog-two__meta list-unstyled">
                                         <li>
                                             <Link href={item?.titleLink}>
                                                 <span className="icon-calendar"></span>
@@ -63,7 +63,7 @@ const OurBlogTow: React.FC = () => {
                                                 {item?.comment} Comments
                                             </Link>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                     <div className="blog-two__btn-and-user">
                                         <div className="blog-two__btn">
                                             <Link className="thm-btn" href={item?.titleLink}>
@@ -71,13 +71,7 @@ const OurBlogTow: React.FC = () => {
                                                 <span><i className="icon-diagonal-arrow"></i></span>
                                             </Link>
                                         </div>
-                                        <div className="blog-two__user">
-                                            <div className="blog-two__user-name-box">
-                                                <div className="blog-two__user-name-dot"></div>
-                                                <h4 className="blog-two__user-name">{item?.username}</h4>
-                                            </div>
-                                            <p className="blog-two__user-sub-title">{item?.subtitle}</p>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>

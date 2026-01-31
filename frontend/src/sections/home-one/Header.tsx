@@ -34,8 +34,8 @@ const Header: React.FC = () => {
                 </div>
                 <div className="text">
                   <p>
-                    <Link href="mailto:support@example.com">
-                      support@example.com
+                    <Link href="summitsgrp@gmail.com">
+                    summitsgrp@gmail.com
                     </Link>
                   </p>
                 </div>
@@ -46,7 +46,7 @@ const Header: React.FC = () => {
                 </div>
                 <div className="text">
                   <p>
-                    <Link href="tel:+121234567890">+12 (123) 456 78900</Link>
+                    <Link href="0435 139 276">0435 139 276</Link>
                   </p>
                 </div>
               </li>
@@ -55,7 +55,7 @@ const Header: React.FC = () => {
                   <i className="icon-pin-1"></i>
                 </div>
                 <div className="text">
-                  <p>684 West College St. Sun City, USA</p>
+                  <p>Melbourne, VIC, Australia</p>
                 </div>
               </li>
             </ul>
@@ -63,14 +63,14 @@ const Header: React.FC = () => {
               <h4 className="main-menu__top-social-title">Follow Us</h4>
               <div className="main-menu__top-social">
                 <Link
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/profile.php?id=61571898744339"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <span className="icon-facebook-app-symbol"></span>
                 </Link>
                 <Link
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/cleansmart_crew?utm_source=qr&igsh=dTR4eG5uYzNyNG1s"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -34,7 +34,7 @@ export default function Home() {
       <ContactOne />
       <TestimonialOne />
       <BrandOne />
-      <OfficeLocation />
+       
       
       <OurBlogTow />
 
