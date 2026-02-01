@@ -11,6 +11,7 @@ const page: React.FC = () => {
         <div className='page-wrapper'>
             <BannerInner title='Pricing Carousel' secondTitle='Pricing Carousel' />
             <ServiceTwo />
+             
             
              
             <FooterInner />
