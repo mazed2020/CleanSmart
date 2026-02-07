@@ -4,6 +4,7 @@ import footerimg1 from "../../../public/assets/images/shapes/site-footer-shape-2
 import footerimg2 from "../../../public/assets/images/resources/352x54_removebg.png";
 import footerimg3 from "../../../public/assets/images/shapes/site-footer-shape-1.png";
 import footerimg4 from "../../../public/assets/images/resources/site-footer-top-right-heading-img.png";
+import footerImg from "../../../public/assets/images/resources/FooterLog.png"
 import Image from "next/image";
 import Link from "next/link";
 const FooterOne: React.FC = () => {
@@ -57,23 +58,26 @@ const FooterOne: React.FC = () => {
               <div className="col-xl-5">
                 <div className="site-footer__top-left">
                   <div
-                    className="site-footer__logo-box"
-                    style={{ backgroundColor: "#f1f1f2" }}
+                    
+                    style={{ backgroundColor: "#05173d",display:"flex", padding:"2rem 0 2rem 2rem", paddingBottom:"2.5rem" }}
                   >
-                    <div className="site-footer__logo">
+                    <div style={{paddingRight:"2rem"}} >
                       <Link href={"/"}>
-                        <Image src={footerimg2} alt="" />
+                        <Image src={footerImg} alt=""  width={100} height={100}/>
                       </Link>
                     </div>
+                    <div>
                     <p
-                      className="site-footer__text-1"
-                      style={{ color: "#05173d" }}
+                      
+                      style={{ color: "#fff" }}
                     >
                       CleanSmart Crew is a professional cleaning service
                       provider delivering high-quality residential and
                       commercial cleaning solutions with reliability, care, and
                       professionalism.
                     </p>
+                    </div>
+                   
                   </div>
                   <div className="site-footer__contact-info-box">
                     <ul className="list-unstyled site-footer__contact-info">
@@ -134,8 +138,9 @@ const FooterOne: React.FC = () => {
                 </div>
               </div>
               <div className="col-xl-7">
+                
                 <div className="site-footer__top-right">
-                  <div className="site-footer__top-right-heading-box">
+                  <div className="site-footer__top-right-heading-box"  >
                     <div className="site-footer__shape-1 float-bob-x">
                       <Image src={footerimg3} alt="" />
                     </div>
@@ -237,41 +242,11 @@ const FooterOne: React.FC = () => {
                   </div>
                   <div className="site-footer__tearms-and-condition">
                     <ul className="list-unstyled site-footer__tearms-and-condition-list">
-                      <li>
-                        <div className="icon">
-                          <span className="icon-file"></span>
-                        </div>
-                        <div className="content">
-                          <h4>
-                            {" "}
-                            <Link href={"/about"}>
-                              Here review our terms and <br /> conditions
-                              document
-                            </Link>
-                          </h4>
-                          <p>Download Now</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="icon">
-                          <span className="icon-medal"></span>
-                        </div>
-                        <div className="content">
-                          <h4>
-                            <Link href={"/about"}>
-                              We are Chartered certified <br /> agency. you can
-                              trust
-                            </Link>
-                          </h4>
-                          <div className="site-footer__tearms-and-condition-star">
-                            <span className="icon-star"></span>
-                            <span className="icon-star"></span>
-                            <span className="icon-star"></span>
-                            <span className="icon-favorite"></span>
-                            <span className="icon-favorite"></span>
-                          </div>
-                        </div>
-                      </li>
+                    <div className="site-footer__logo" >
+                      <Link style={{marginInlineStart:"11rem"}} href={"/"}>
+                        <Image src={footerimg2} alt="" />
+                      </Link>
+                    </div>
                     </ul>
                   </div>
                 </div>

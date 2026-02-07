@@ -9,7 +9,7 @@ import ServiceTwo from '@/sections/home-one/ServiceTwo';
 const page: React.FC = () => {
     return (
         <div className='page-wrapper'>
-            <BannerInner title='Pricing Carousel' secondTitle='Pricing Carousel' />
+            {/* <BannerInner title='Pricing Carousel' secondTitle='Pricing Carousel' /> */}
             <ServiceTwo />
              
             

@@ -141,13 +141,6 @@ const ServiceTwo: React.FC = () => {
     }}
   >
     <button
-      onClick={() => scrollToSection("commercial-cleaning")}
-      style={btnStyle}
-    >
-      Commercial
-    </button>
-
-    <button
       onClick={() => scrollToSection("residential-cleaning")}
       style={btnStyle}
     >
@@ -155,10 +148,16 @@ const ServiceTwo: React.FC = () => {
     </button>
 
     <button
+      onClick={() => scrollToSection("commercial-cleaning")}
+      style={btnStyle}
+    >
+      Commercial
+    </button>
+    <button
       onClick={() => scrollToSection("special-cleaning")}
       style={btnStyle}
     >
-      Special
+      Specialised
     </button>
   </div>
 </div>
@@ -169,8 +168,8 @@ const ServiceTwo: React.FC = () => {
 
 
         {/* section 1 */}
-        <div id="commercial-cleaning">
-          <SectionHeading title="Commercial Cleaning" />
+        <div id="residential-cleaning">
+          <SectionHeading title="Residential Cleaning" />
           <div className="services-two__inner">
             <ul className="services-two__services-list list-unstyled">
               {hoverItems.map((item) => (
@@ -225,9 +224,10 @@ const ServiceTwo: React.FC = () => {
             </ul>
           </div>
         </div>
+        
         {/* section 2 */}
-        <div id="residential-cleaning">
-          <SectionHeading title="Residential Cleaning" />
+        <div id="commercial-cleaning">
+          <SectionHeading title="Commercial Cleaning" />
           <div className="services-two__inner">
             <ul className="services-two__services-list list-unstyled">
               {hoverItems.map((item) => (
