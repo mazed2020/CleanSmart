@@ -182,48 +182,7 @@ const BannerInner: React.FC<BannerOneProps> = ({
         </nav>
       </header>
 
-      <section className="page-header">
-        <div className="page-header__bg"></div>
-        <div className="page-header__social">
-          <Link href="#">LinkedIn</Link>
-          <Link href="#">Pinterest</Link>
-          <Link href="#">twitter-x</Link>
-          <Link href="#">facebook</Link>
-        </div>
-        <div className="container">
-          <div className="page-header__inner">
-            <div className="page-header__img-1">
-              <Image src={headimg} alt="Page header" />
-            </div>
-            <h2>{title}</h2>
-            <div className="thm-breadcrumb__box">
-              <ul className="thm-breadcrumb list-unstyled">
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
-                <li>
-                  <span className="icon-arrow-right"></span>
-                </li>
-                {secondTitleLink ? (
-                  <li>
-                    <Link href={secondTitleLink}>{secondTitle}</Link>
-                  </li>
-                ) : (
-                  <li>{secondTitle}</li>
-                )}
-                {thirdTitle && (
-                  <>
-                    <li>
-                      <span className="icon-arrow-right"></span>
-                    </li>
-                    <li>{thirdTitle}</li>
-                  </>
-                )}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+       
     </>
   );
 };

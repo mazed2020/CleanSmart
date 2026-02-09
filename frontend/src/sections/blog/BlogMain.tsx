@@ -68,13 +68,13 @@ const BlogMain: React.FC = () => {
                                                 <span>{item?.date?.month}</span>
                                             </div>
                                             <ul className="list-unstyled blog-one__tag">
-                                                <li><Link href={"/blog-details"}>{item?.links?.link1}</Link></li>
-                                                <li><Link href={"/blog-details"}>{item?.links?.link2}</Link></li>
+                                                <li><Link href={""} onClick={(e)=>e.preventDefault()} >{item?.links?.link1}</Link></li>
+                                                <li><Link href={""} onClick={(e)=>e.preventDefault()}>{item?.links?.link2}</Link></li>
                                             </ul>
                                         </div>
                                         <div className="blog-one__content">
                                             <h3 className="blog-one__title">
-                                                <Link href={"/blog-details"}>{item?.title}</Link>
+                                                <Link href={""} onClick={(e)=>e.preventDefault()}>{item?.title}</Link>
                                             </h3>
                                             <p className="blog-one__text">{item?.text}</p>
                                         </div>

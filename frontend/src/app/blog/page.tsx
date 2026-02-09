@@ -4,6 +4,7 @@ import FooterInner from '@/sections/common/FooterInner';
 import NewsLeterInner from '@/sections/common/NewsLeterInner';
 import StickyNavInner from '@/sections/common/StickyNavInner';
 import BlogMain from '@/sections/blog/BlogMain';
+import FooterOne from '@/sections/home-one/FooterOne';
 
 
 const page: React.FC = () => {
@@ -12,7 +13,7 @@ const page: React.FC = () => {
             <BannerInner title='Blog' secondTitle='Blog' />
             <BlogMain />
              
-            <FooterInner />
+            <FooterOne />
             <StickyNavInner />
         </div>
     );

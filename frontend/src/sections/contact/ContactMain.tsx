@@ -6,7 +6,6 @@ const ContactMain: React.FC = () => {
     return (
         <>
             <ContactUs />
-            <OfficeLocation />
             <section className="google-map-one">
                 <div className="container">
                     <iframe

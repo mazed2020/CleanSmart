@@ -189,7 +189,7 @@ const ServiceTwo: React.FC = () => {
                     <div className="services-two__title-box">
                       <div className="services-two__count"></div>
                       <h3 className="services-two__title">
-                        <Link href={item.itemLink}>{item.title}</Link>
+                        <Link href={item.itemLink} onClick={(e)=>e.preventDefault()}>{item.title}</Link>
                       </h3>
                     </div>
                   </div>
@@ -200,10 +200,10 @@ const ServiceTwo: React.FC = () => {
                       {item.text2}
                     </p>
                     <div className="services-two__btn-box">
-                      <Link href={item.itemLink}>
+                      {/* <Link href={item.itemLink}>
                         View Details
                         <span className="icon-diagonal-arrow"></span>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                   <div
@@ -247,7 +247,7 @@ const ServiceTwo: React.FC = () => {
                     <div className="services-two__title-box">
                       <div className="services-two__count"></div>
                       <h3 className="services-two__title">
-                        <Link href={item.itemLink}>{item.title}</Link>
+                        <Link href={item.itemLink} onClick={(e)=>e.preventDefault()}>{item.title}</Link>
                       </h3>
                     </div>
                   </div>
@@ -258,10 +258,10 @@ const ServiceTwo: React.FC = () => {
                       {item.text2}
                     </p>
                     <div className="services-two__btn-box">
-                      <Link href={item.itemLink}>
+                      {/* <Link href={item.itemLink}>
                         View Details
                         <span className="icon-diagonal-arrow"></span>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                   <div
@@ -305,7 +305,7 @@ const ServiceTwo: React.FC = () => {
                     <div className="services-two__title-box">
                       <div className="services-two__count"></div>
                       <h3 className="services-two__title">
-                        <Link href={item.itemLink}>{item.title}</Link>
+                        <Link href={""} onClick={(e)=>e.preventDefault()}>{item.title}</Link>
                       </h3>
                     </div>
                   </div>
@@ -316,10 +316,10 @@ const ServiceTwo: React.FC = () => {
                       {item.text2}
                     </p>
                     <div className="services-two__btn-box">
-                      <Link href={item.itemLink}>
+                      {/* <Link href={item.itemLink}>
                         View Details
                         <span className="icon-diagonal-arrow"></span>
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
                   <div
