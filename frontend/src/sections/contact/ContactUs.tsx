@@ -17,21 +17,21 @@ const contactInfoList: ContactInfo[] = [
     {
         icon: 'fas fa-map-marker-alt',
         title: 'Our Address',
-        content: ['567 Oak Avenue, Apartment 910,', 'Chicago, IL 60601, USA']
+        content: ['Melbourne, VIC, Australia', '']
     },
     {
         icon: 'far fa-clock',
         title: 'Contact Info',
         content: ['Phone:', 'Email:'],
         links: [
-            { type: 'tel', value: '+12 (00) 345 58900' },
-            { type: 'email', value: 'info@domain.com' }
+            { type: 'tel', value: '0435 139 276' },
+            { type: 'email', value: 'summitsgrp@gmail.com' }
         ]
     },
     {
         icon: 'fas fa-map-marker-alt',
         title: 'Working Time',
-        content: ['Time: 10:00 AM - 6:00 PM', 'Days: Monday - Friday']
+        content: ['Time: 10:00 AM - 8:00 PM', 'Days: Monday - Friday']
     }
 ];
 const ContactUs: React.FC = () => {
