@@ -8,7 +8,6 @@ const page: React.FC = () => {
         <div className='page-wrapper'>
             <BannerInner title='Contact' secondTitle='Contact' />
             <ContactMain />
-            
             <FooterOne />
             <StickyNavInner />
         </div>
