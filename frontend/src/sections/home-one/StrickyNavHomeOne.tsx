@@ -1,9 +1,7 @@
 "use client";
 import React, { useContext, useEffect, useState } from "react";
 import logo_1 from "../../../public/assets/images/resources/352x54_removebg.png";
-import image2 from "../../../public/assets/images/home-showcase/home-showcase-1-1.jpg";
-import image3 from "../../../public/assets/images/home-showcase/home-showcase-1-2.jpg";
-import image4 from "../../../public/assets/images/home-showcase/home-showcase-1-3.jpg";
+ 
 import Image from "next/image";
 import Link from "next/link";
 import FreshFlowContext from "@/components/context/FreshFlowContext";
@@ -63,12 +61,12 @@ const StrickyNavHomeOne: React.FC = () => {
                 <ul className="main-menu__list">
                   {/* ✅ Home */}
                   <li className={isActive("/home") ? "current" : ""}>
-                    <Link href="/home">Home</Link>
+                    <Link href="/">Home</Link>
                   </li>
 
                   {/* ✅ Services -> /pricing-carousel */}
-                  <li className={isActive("/pricing-carousel") ? "current" : ""}>
-                    <Link href="/pricing-carousel">Services</Link>
+                  <li className={isActive("/services") ? "current" : ""}>
+                    <Link href="/services">Services</Link>
                   </li>
 
                   {/* ✅ Blog */}

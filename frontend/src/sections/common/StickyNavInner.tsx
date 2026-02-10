@@ -69,8 +69,8 @@ const StickyNavInner = () => {
                     <Link href="/">Home</Link>
                   </li>
 
-                  <li className={isActive("/pricing-carousel") ? "current" : ""}>
-                    <Link href="/pricing-carousel">Services</Link>
+                  <li className={isActive("/services") ? "current" : ""}>
+                    <Link href="/services">Services</Link>
                   </li>
 
                   <li className={isActive("/blog") ? "current" : ""}>

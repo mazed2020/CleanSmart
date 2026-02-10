@@ -9,7 +9,7 @@ interface PricingCartProps {
 }
 
 const PricingCard: React.FC<PricingCartProps> = ({ item }) => {
-    console.log(item)
+     
     return (
         <div className="col-xl-4 col-lg-6 pricing-margin">
             <div

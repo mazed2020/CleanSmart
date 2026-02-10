@@ -69,7 +69,7 @@ const ContactForm: React.FC = () => {
             message: formData.get('message') as string
         };
         if (userInfo) {
-            // console.log(userInfo);
+             console.log(userInfo);
         }
         form.reset();
     };

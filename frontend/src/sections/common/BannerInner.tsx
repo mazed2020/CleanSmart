@@ -138,10 +138,10 @@ const BannerInner: React.FC<BannerOneProps> = ({
                     {/* Services -> pricing-carousel */}
                     <li
                       className={
-                        pathName === "/pricing-carousel" ? "current" : ""
+                        pathName === "/services" ? "current" : ""
                       }
                     >
-                      <Link href="/pricing-carousel">Services</Link>
+                      <Link href="/services">Services</Link>
                     </li>
 
                     {/* Blog */}
