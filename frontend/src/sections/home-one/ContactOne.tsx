@@ -7,9 +7,9 @@ import { motion } from "framer-motion"
 // Assets
 import contImg1 from "../../../public/assets/images/shapes/contact-one-shape-2.png";
 import contImg2 from "../../../public/assets/images/shapes/contact-one-shape-3.png";
-import contImg3 from "../../../public/assets/images/resources/contact-one-img-main.jpg";
-import contImg4 from "../../../public/assets/images/resources/contact-one-small-img-1.jpg";
-import contImg5 from "../../../public/assets/images/resources/contact-one-small-img-2.jpg";
+import contImg3 from "../../../public/assets/images/resources/7.2. CTA 2.png";
+import contImg4 from "../../../public/assets/images/resources/7.1. CTA 1.png";
+import contImg5 from "../../../public/assets/images/resources/7.3. CTA 3.png";
 import Link from "next/link";
 
 // Types

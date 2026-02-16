@@ -6,7 +6,7 @@ import Link from 'next/link';
 import bannerShapeBg1 from '../../../public/assets/images/shapes/banner-one-shape-bg-1.png';
 import bannerShape4 from '../../../public/assets/images/shapes/banner-one-shape-4.png';
 import bannerShape5 from '../../../public/assets/images/shapes/banner-one-shape-5.png';
-import bannerImg1 from '../../../public/assets/images/resources/banner-one-img-1.png';
+import bannerImg1 from '../../../public/assets/images/resources/4. Hero 1.png';
 import satisfiedPartner1 from '../../../public/assets/images/resources/banner-one-satisfied-partner-1-1.jpg';
 import satisfiedPartner2 from '../../../public/assets/images/resources/banner-one-satisfied-partner-1-2.jpg';
 import satisfiedPartner3 from '../../../public/assets/images/resources/banner-one-satisfied-partner-1-3.jpg';

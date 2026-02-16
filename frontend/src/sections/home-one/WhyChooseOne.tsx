@@ -1,9 +1,9 @@
 "use client"
 import React, { useState } from 'react';
 import whych1 from "../../../public/assets/images/shapes/why-choose-one-shape-2.png";
-import whych2 from "../../../public/assets/images/resources/why-choose-one-img-1.jpg";
+import whych2 from "../../../public/assets/images/resources/6.3. Why Choose Us 3.png";
 import whych3 from "../../../public/assets/images/shapes/why-choose-one-shape-1.png";
-import whych4 from "../../../public/assets/images/resources/why-choose-one-img-2.jpg";
+import whych4 from "../../../public/assets/images/resources/6.4. Why Choose Us 4.png";
 import whych5 from "../../../public/assets/images/resources/why-choose-one-client-img-1.jpg";
 import whych7 from "../../../public/assets/images/resources/why-choose-one-client-img-2.jpg";
 import whych8 from "../../../public/assets/images/resources/why-choose-one-client-img-3.jpg";

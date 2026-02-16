@@ -1,13 +1,29 @@
 
 import { Blog } from "@/types/home-one"
-import blogImg1 from "../../../public/assets/images/blog/blog-1-1.jpg"
-import blogImg2 from "../../../public/assets/images/blog/blog-1-2.jpg"
-import blogImg3 from "../../../public/assets/images/blog/blog-1-3.jpg"
-import blogImg4 from "../../../public/assets/images/blog/blog-1-4.jpg"
-import blogImg5 from "../../../public/assets/images/blog/blog-1-5.jpg"
-import blogImg6 from "../../../public/assets/images/blog/blog-1-6.jpg"
-import blogImg7 from "../../../public/assets/images/blog/blog-1-7.jpg"
-import blogImg8 from "../../../public/assets/images/blog/blog-1-8.jpg"
+import blogImg1 from "../../../public/assets/images/blog/1.2.png"
+import blogImg2 from "../../../public/assets/images/blog/2.2.png"
+import blogImg3 from "../../../public/assets/images/blog/3.2.png"
+import blogImg4 from "../../../public/assets/images/blog/4.2.png"
+import blogImg5 from "../../../public/assets/images/blog/5.2.png"
+import blogImg6 from "../../../public/assets/images/blog/6.2.png"
+import blogImg7 from "../../../public/assets/images/blog/7.2.png"
+ 
+ 
+import blogImg8 from "../../../public/assets/images/blog/8.2.png"
+import blogImg9 from "../../../public/assets/images/blog/9.2.png"
+import blogImg10 from "../../../public/assets/images/blog/10.2.png"
+import blogImg11 from "../../../public/assets/images/blog/11.2.png"
+import blogImg12 from "../../../public/assets/images/blog/12.2.png"
+
+import blogImg13 from "../../../public/assets/images/blog/13.2.png"
+import blogImg14 from "../../../public/assets/images/blog/14.2.png"
+import blogImg15 from "../../../public/assets/images/blog/15.2.png"
+import blogImg16 from "../../../public/assets/images/blog/16.2.png"
+
+ 
+
+
+
 
 import listimg1 from "../../../public/assets/images/blog/blog-list-1-1.jpg";
 import listimg7 from "../../../public/assets/images/blog/blog-list-client-img-1.jpg";
@@ -117,8 +133,22 @@ export const Allblogs: Blog[] = [
         text: "A behind-the-scenes look at how cleaning team transforms messy spaces"
     },
     {
-        id: 8,
+        id: 7,
         image: blogImg8,
+        date: {
+            day: "24",
+            month: "APR"
+        },
+        links: {
+            link1: "Cleaning",
+            link2: "Moping",
+        },
+        title: "How Our Cleaning Agency Makes a Difference",
+        text: "A behind-the-scenes look at how cleaning team transforms messy spaces"
+    },
+    {
+        id: 8,
+        image: blogImg9,
         date: {
             day: "30",
             month: "DEC"
@@ -132,7 +162,7 @@ export const Allblogs: Blog[] = [
     },
     {
         id: 9,
-        image: blogImg1,
+        image: blogImg10,
         date: {
             day: "05",
             month: "NOV"
@@ -146,7 +176,7 @@ export const Allblogs: Blog[] = [
     },
     {
         id: 10,
-        image: blogImg2,
+        image: blogImg11,
         date: {
             day: "24",
             month: "APR"
@@ -160,7 +190,7 @@ export const Allblogs: Blog[] = [
     },
     {
         id: 11,
-        image: blogImg3,
+        image: blogImg12,
         date: {
             day: "24",
             month: "APR"
@@ -174,7 +204,7 @@ export const Allblogs: Blog[] = [
     },
     {
         id: 12,
-        image: blogImg4,
+        image: blogImg13,
         date: {
             day: "30",
             month: "DEC"
@@ -188,7 +218,7 @@ export const Allblogs: Blog[] = [
     },
     {
         id: 13,
-        image: blogImg2,
+        image: blogImg14,
         date: {
             day: "05",
             month: "NOV"
@@ -202,7 +232,7 @@ export const Allblogs: Blog[] = [
     },
     {
         id: 14,
-        image: blogImg1,
+        image: blogImg15,
         date: {
             day: "24",
             month: "APR"
@@ -213,6 +243,20 @@ export const Allblogs: Blog[] = [
         },
         title: "Top 5 Reasons Your Business Needs Expert Cleaning Services",
         text: "Explore how a clean workplace boosts productivity, impresses clients"
+    },
+    {
+        id: 7,
+        image: blogImg16,
+        date: {
+            day: "24",
+            month: "APR"
+        },
+        links: {
+            link1: "Cleaning",
+            link2: "Moping",
+        },
+        title: "How Our Cleaning Agency Makes a Difference",
+        text: "A behind-the-scenes look at how cleaning team transforms messy spaces"
     },
 ]
 

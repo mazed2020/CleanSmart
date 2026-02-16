@@ -3,8 +3,8 @@ import React from "react";
 import footerimg1 from "../../../public/assets/images/shapes/site-footer-shape-2.png";
 import footerimg2 from "../../../public/assets/images/resources/352x54_removebg.png";
 import footerimg3 from "../../../public/assets/images/shapes/site-footer-shape-1.png";
-import footerimg4 from "../../../public/assets/images/resources/site-footer-top-right-heading-img.png";
-import footerImg from "../../../public/assets/images/resources/FooterLog.png"
+import footerimg4 from "../../../public/assets/images/resources/3.5_400x161.png";
+import footerImg from "../../../public/assets/images/resources/3.2. 200x206.png"
 import Image from "next/image";
 import Link from "next/link";
 const FooterOne: React.FC = () => {
