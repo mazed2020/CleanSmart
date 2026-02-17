@@ -11,7 +11,6 @@ const page: React.FC = () => {
         <div className='page-wrapper'>
             <BannerInner title='Blog' secondTitle='Blog' />
             <BlogMain />
-             
             <FooterOne />
             <StickyNavInner />
         </div>
