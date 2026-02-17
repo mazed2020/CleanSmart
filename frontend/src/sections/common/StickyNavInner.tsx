@@ -1,15 +1,13 @@
 'use client';
 
 import image1 from "../../../public/assets/images/resources/352x54_removebg.png";
-import image2 from "../../../public/assets/images/home-showcase/home-showcase-1-1.jpg";
-import image3 from "../../../public/assets/images/home-showcase/home-showcase-1-2.jpg";
-import image4 from "../../../public/assets/images/home-showcase/home-showcase-1-3.jpg";
+ 
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useContext, useEffect, useState } from "react";
 import FreshFlowContext from "@/components/context/FreshFlowContext";
-import { PagePath } from "@/types/about";
+ 
 
 const StickyNavInner = () => {
   const context = useContext(FreshFlowContext);
@@ -23,9 +21,7 @@ const StickyNavInner = () => {
   // ✅ same style as your <nav> example
   const isActive = (path: string) => pathName === path;
 
-  const isCurrent = (pathArray: PagePath[]): boolean => {
-    return pathArray.includes(pathName as PagePath);
-  };
+ 
 
   const [isStick, setIsSticky] = useState<boolean>(false);
   const headerScrollPos: number = 130;
