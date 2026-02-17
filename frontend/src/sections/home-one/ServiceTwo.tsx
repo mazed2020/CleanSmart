@@ -7,6 +7,11 @@ import servimg4 from "../../../public/assets/images/services/services-2-2.jpg";
 import servimg5 from "../../../public/assets/images/services/services-2-3.jpg";
 import servimg6 from "../../../public/assets/images/services/services-2-4.jpg";
 import servimg7 from "../../../public/assets/images/services/services-2-5.jpg";
+import servimg8 from "../../../public/assets/images/services/services-2-5.jpg";
+import servimg9 from "../../../public/assets/images/services/services-2-5.jpg";
+import servimg10 from "../../../public/assets/images/services/services-2-5.jpg";
+
+
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import TextAnimation from "@/components/elements/TextAnimation";
@@ -21,49 +26,153 @@ interface HoverItem {
   itemLink: string;
   id: number;
 }
+// residential cleaning data
+const  residentialItems: HoverItem[] = [
+  {
+    id: 1,
+    title: "Regular Home Cleaning",
+    text1: "Reliable regular home cleaning to keep your living",
+    text2: "space fresh, organized, and consistently clean.",
+    image: servimg3,
+    itemLink: "/regular-home-cleaning",
+  },
+  {
+    id: 2,
+    title: "End of Lease Cleaning",
+    text1: "Thorough move-out cleaning designed to meet",
+    text2: "inspection standards and ensure stress-free handovers.",
+    image: servimg4,
+    itemLink: "/end-of-lease-cleaning",
+  },
+  {
+    id: 3,
+    title: "Kitchen & Bathroom Care",
+    text1: "Deep cleaning and sanitisation of kitchens and bathrooms",
+    text2: "for hygiene, freshness, and complete safety.",
+    image: servimg5,
+    itemLink: "/kitchen-bathroom-cleaning",
+  },
+  {
+    id: 4,
+    title: "Bedroom & Living Space Cleaning",
+    text1: "Complete cleaning for bedrooms and living areas,",
+    text2: "creating a healthy and comfortable environment.",
+    image: servimg6,
+    itemLink: "/bedroom-living-cleaning",
+  },
+  {
+    id: 5,
+    title: "Carpet Steam Cleaning",
+    text1: "Professional steam cleaning to remove dirt, stains,",
+    text2: "bacteria, and allergens from carpets.",
+    image: servimg7,
+    itemLink: "/carpet-steam-cleaning",
+  },
+  {
+    id: 6,
+    title: "Mattress & Sofa Cleaning",
+    text1: "Specialised mattress and sofa cleaning for improved",
+    text2: "freshness, hygiene, and fabric protection.",
+    image: servimg8,
+    itemLink: "/mattress-sofa-cleaning",
+  },
+  {
+    id: 7,
+    title: "Rug & Carpet Cleaning",
+    text1: "Deep cleaning for rugs and carpets to restore",
+    text2: "appearance and extend fabric life.",
+    image: servimg9,
+    itemLink: "/rug-carpet-cleaning",
+  },
+  {
+    id: 8,
+    title: "Car Seat Steam Cleaning",
+    text1: "Professional car seat steam cleaning for stain",
+    text2: "removal, hygiene, and fresh interiors.",
+    image: servimg10,
+    itemLink: "/car-seat-steam-cleaning",
+  },
+];
+//Commercial Cleaning
+
+const  commercialItems: HoverItem[] = [
+  {
+    id: 1,
+    title: "Office Cleaning",
+    text1: "Reliable office cleaning to maintain a clean, organised,",
+    text2: "and productive work environment for your team and clients.",
+    image: servimg3,
+    itemLink: "/office-cleaning",
+  },
+  {
+    id: 2,
+    title: "Retail Cleaning",
+    text1: "Detail-focused retail cleaning that keeps your store spotless,",
+    text2: "welcoming, and aligned with your brand image.",
+    image: servimg4,
+    itemLink: "/retail-cleaning",
+  },
+  {
+    id: 3,
+    title: "Workspace Sanitation",
+    text1: "Thorough sanitisation of workstations and high-touch surfaces",
+    text2: "to promote hygiene and employee wellbeing.",
+    image: servimg5,
+    itemLink: "/workspace-sanitation",
+  },
+  {
+    id: 4,
+    title: "Common Area Cleaning",
+    text1: "Consistent cleaning of shared spaces to ensure cleanliness,",
+    text2: "safety, and a positive experience for everyone.",
+    image: servimg6,
+    itemLink: "/common-area-cleaning",
+  },
+  {
+    id: 5,
+    title: "Restroom and Kitchen Cleaning",
+    text1: "Deep cleaning and disinfection of restrooms and kitchen areas",
+    text2: "for hygiene, freshness, and daily comfort.",
+    image: servimg7,
+    itemLink: "/restroom-kitchen-cleaning",
+  },
+];
 
 const hoverItems: HoverItem[] = [
   {
-    title: "Sparkling Home Solutions",
-    text1: "Expert cleaning services to keep your home fresh,",
-    text2: "tidy, and sparkling clean.",
-    image: servimg3,
-    itemLink: "/office-cleaning",
     id: 1,
+    title: "Post-Construction Cleaning",
+    text1: "Detailed cleaning to remove dust, debris, and residue,",
+    text2: "leaving newly built or renovated spaces spotless and ready to use.",
+    image: servimg3,
+    itemLink: "/post-construction-cleaning",
   },
   {
-    title: "Pristine Office Cleaning",
-    text1: "Professional cleaning tailored for offices to maintain",
-    text2: "a clean and productive workspace.",
-    image: servimg4,
-    itemLink: "/commercial-cleaning",
     id: 2,
+    title: "One-Time Deep Cleaning",
+    text1: "Intensive top-to-bottom cleaning designed to refresh your",
+    text2: "space and eliminate built-up dirt, grime, and hidden contaminants.",
+    image: servimg4,
+    itemLink: "/one-time-deep-cleaning",
   },
   {
-    title: "Deep Clean Experts",
-    text1: "Specialized deep cleaning for homes or businesses,",
-    text2: "tackling dirt in hard-to-reach places.",
-    image: servimg5,
-    itemLink: "/deep-cleaning",
     id: 3,
+    title: "Event Cleaning",
+    text1: "Pre- and post-event cleaning services to keep your venue",
+    text2: "clean, organised, and presentable for every occasion.",
+    image: servimg5,
+    itemLink: "/event-cleaning",
   },
   {
-    title: "Hygiene Space Services",
-    text1: "Comprehensive cleaning solutions to ensure",
-    text2: "sanitized and spotless environments.",
-    image: servimg6,
-    itemLink: "/sanitizing-mopping",
     id: 4,
-  },
-  {
-    title: "Eco-Friendly Cleaning",
-    text1: "Sustainable cleaning services using green",
-    text2: "products for a healthier home and planet.",
-    image: servimg7,
-    itemLink: "/residential-cleaning",
-    id: 5,
+    title: "Customized Cleaning Plans",
+    text1: "Flexible cleaning solutions tailored to your specific space,",
+    text2: "schedule, and service requirements.",
+    image: servimg6,
+    itemLink: "/customized-cleaning-plans",
   },
 ];
+
 
 const ServiceTwo: React.FC = () => {
   const [xPosition, setXPosition] = useState<number>(0);
@@ -172,7 +281,7 @@ const ServiceTwo: React.FC = () => {
           <SectionHeading title="Residential Cleaning" />
           <div className="services-two__inner">
             <ul className="services-two__services-list list-unstyled">
-              {hoverItems.map((item) => (
+              {residentialItems.map((item) => (
                 <li
                   key={item.id}
                   ref={containerRef}
@@ -188,7 +297,8 @@ const ServiceTwo: React.FC = () => {
                     </div>
                     <div className="services-two__title-box">
                       <div className="services-two__count"></div>
-                      <h3 className="services-two__title">
+                      {/* style={{fontSize:"18px"}} */}
+                      <h3 className="services-two__title" >
                         <Link href={item.itemLink} onClick={(e)=>e.preventDefault()}>{item.title}</Link>
                       </h3>
                     </div>
@@ -230,7 +340,7 @@ const ServiceTwo: React.FC = () => {
           <SectionHeading title="Commercial Cleaning" />
           <div className="services-two__inner">
             <ul className="services-two__services-list list-unstyled">
-              {hoverItems.map((item) => (
+              {commercialItems.map((item) => (
                 <li
                   key={item.id}
                   ref={containerRef}
