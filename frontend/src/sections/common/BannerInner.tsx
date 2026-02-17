@@ -5,11 +5,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import image1 from "../../../public/assets/images/resources/352x54_removebg.png";
-import image2 from "../../../public/assets/images/home-showcase/home-showcase-1-1.jpg";
-import image3 from "../../../public/assets/images/home-showcase/home-showcase-1-2.jpg";
-import image4 from "../../../public/assets/images/home-showcase/home-showcase-1-3.jpg";
-import headimg from "../../../public/assets/images/resources/page-header-img-1.jpg";
-import { PagePath } from "@/types/about";
+ 
+ 
 import FreshFlowContext from "@/components/context/FreshFlowContext";
 
 interface BannerOneProps {
@@ -38,9 +35,9 @@ const BannerInner: React.FC<BannerOneProps> = ({
   const { setIsMobileOpen, setSideBar } = context;
   const pathName = usePathname();
 
-  const isCurrent = (pathArray: PagePath[]): boolean => {
-    return pathArray.includes(pathName as PagePath);
-  };
+  // const isCurrent = (pathArray: PagePath[]): boolean => {
+  //   return pathArray.includes(pathName as PagePath);
+  // };
 
   const handleMobileToggle = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
