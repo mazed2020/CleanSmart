@@ -5,7 +5,7 @@ export type FreshFlowContextType = {
   setIsMobileOpen: React.Dispatch<React.SetStateAction<boolean>>;
   isSearch: boolean;
   setIsSearch: React.Dispatch<React.SetStateAction<boolean>>;
-  isSideBar: boolean;
+  // isSideBar: boolean;
   // setSideBar: React.Dispatch<React.SetStateAction<boolean>>;
   toggleMobileMenu: () => void;
   scrollToSection: (id: string) => void;

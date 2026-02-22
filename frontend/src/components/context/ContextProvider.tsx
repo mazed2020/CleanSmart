@@ -10,7 +10,7 @@ const ContextProvider: React.FC<{ children: React.ReactNode }> = ({ children }) 
   const [loading, setLoading] = useState<boolean>(true);
   const [isMobileOpen, setIsMobileOpen] = useState<boolean>(false);
   const [isSearch, setIsSearch] = useState<boolean>(false);
-  const [isSideBar, setSideBar] = useState<boolean>(false);
+  // const [isSideBar, setSideBar] = useState<boolean>(false);
   const [activeSection, setActiveSection] = useState<string>("home");
   const toggleMobileMenu = () => {
     setIsMobileOpen((prev) => !prev);
@@ -35,7 +35,7 @@ const ContextProvider: React.FC<{ children: React.ReactNode }> = ({ children }) 
     setIsMobileOpen,
     isSearch,
     setIsSearch,
-    isSideBar,
+    // isSideBar,
     toggleMobileMenu,
     scrollToSection,
     activeSection,
