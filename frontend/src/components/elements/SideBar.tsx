@@ -1,9 +1,9 @@
-"use client";
-import React, { useContext } from 'react';
-import Image from 'next/image';
-import logo2 from "../../../public/assets/images/resources/logo-2.png";
-import Link from 'next/link';
-import FreshFlowContext from '../context/FreshFlowContext';
+// "use client";
+// import React, { useContext } from 'react';
+// import Image from 'next/image';
+// import logo2 from "../../../public/assets/images/resources/logo-2.png";
+// import Link from 'next/link';
+// import FreshFlowContext from '../context/FreshFlowContext';
 
 // const SideBar: React.FC = () => {
 //     const context = useContext(FreshFlowContext);

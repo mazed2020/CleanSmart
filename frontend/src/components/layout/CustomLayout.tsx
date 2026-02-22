@@ -5,7 +5,7 @@ import ChatProp from '../elements/ChatProp';
 import MobileNav from '../elements/MobileNav';
 import FreshFlowContext from '../context/FreshFlowContext';
 import ScrollToTop from '../elements/ScrollToTop';
-import SideBar from '../elements/SideBar';
+// import SideBar from '../elements/SideBar';
 import { usePathname } from 'next/navigation';
 import MobileNavSingle from '../elements/MobileNavSingle';
 
@@ -21,7 +21,7 @@ const CustomLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => 
             {children}
             {pathName === "/single-page" ? < MobileNavSingle /> : <MobileNav />}
             <ScrollToTop />
-            <SideBar />
+            {/* <SideBar /> */}
         </div >
     );
 };
