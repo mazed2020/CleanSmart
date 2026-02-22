@@ -2,12 +2,12 @@
 import React, { useRef, useState } from "react";
 import servimg1 from "../../../public/assets/images/shapes/services-two-shape-1.png";
 import servimg2 from "../../../public/assets/images/shapes/services-two-shape-2.png";
-import servimg3 from "../../../public/assets/images/services/services-2-1.jpg";
-import servimg4 from "../../../public/assets/images/services/services-2-2.jpg";
-import servimg5 from "../../../public/assets/images/services/services-2-3.jpg";
-import servimg6 from "../../../public/assets/images/services/services-2-4.jpg";
-import servimg7 from "../../../public/assets/images/services/services-2-5.jpg";
-import servimg8 from "../../../public/assets/images/services/services-2-5.jpg";
+import servimg3 from "../../../public/assets/images/services/1. Services 1.png";
+import servimg4 from "../../../public/assets/images/services/2. Services 2.png";
+import servimg5 from "../../../public/assets/images/services/3. Services 3.png";
+import servimg6 from "../../../public/assets/images/services/4. Services 4.png";
+import servimg7 from "../../../public/assets/images/services/5. Services 5.png";
+import servimg8 from "../../../public/assets/images/services/6. Services 6.png";
 import servimg9 from "../../../public/assets/images/services/services-2-5.jpg";
 import servimg10 from "../../../public/assets/images/services/services-2-5.jpg";
 

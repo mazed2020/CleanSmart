@@ -18,7 +18,7 @@ const OurBlogTow: React.FC = () => {
                             <div className="section-title__tagline-shape"></div>
                             <div className="section-title__tagline-shape-2"></div>
                         </div>
-                        <span className="section-title__tagline">Our Blogs</span>
+                        <span className="section-title__tagline" style={{color:"#EC5800"}}>Our Blogs</span>
                     </div>
                     <h2 className="section-title__title title-custom-animation">
                         <TextAnimation text='Destination for Inspiration' textColor='black' />

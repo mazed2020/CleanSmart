@@ -162,7 +162,7 @@ const BannerInner: React.FC<BannerOneProps> = ({
                       </span>
                     </Link>
                   </div>
-                  <div className="main-menu-three__nav-sidebar-icon">
+                  {/* <div className="main-menu-three__nav-sidebar-icon">
                     <Link
                       onClick={handleSidebarToggle}
                       className="navSidebar-button"
@@ -171,7 +171,7 @@ const BannerInner: React.FC<BannerOneProps> = ({
                     >
                       <span className="icon-app"></span>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -812,6 +812,7 @@
 .pricing-two__single:hover .pricing-two__pack-name,
 .pricing-two__single.active .pricing-two__pack-name {
     background-color: rgba(var(--Freshflow-white-rgb), .20);
+
 }
 
 .pricing-two__pack-name p {

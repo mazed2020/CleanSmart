@@ -76,7 +76,7 @@ body {
   --Freshflow-base-rgb: 46, 114, 255;
   --Freshflow-black: #05173D;
   --Freshflow-black-rgb: 5, 23, 61;
-  --Freshflow-primary: #F46744;
+  --Freshflow-primary: #EC5800;
   --Freshflow-primary-rgb: 244, 103, 68;
   --Freshflow-white: #ffffff;
   --Freshflow-white-rgb: 255, 255, 255;
@@ -84,6 +84,7 @@ body {
   --Freshflow-extra-rgb: 255, 210, 93;
   --Freshflow-secondary: #F2F2FF;
   --Freshflow-secondary-rgb: 242, 242, 255;
+  --Our-own-color:#EC5800;
 }
 
 .row {
@@ -312,7 +313,9 @@ ul {
   width: 12px;
   height: 12px;
   border: 2px solid var(--Freshflow-base);
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: var(--Our-own-color);
+
   border-radius: 3px;
   transform: rotate(45deg);
 }
@@ -322,7 +325,8 @@ ul {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background-color: var(--Freshflow-base);
+  /* background-color: var(--Freshflow-base); */
+  background-color: var(--Our-own-color);
   border: 2px solid var(--Freshflow-white);
   border-radius: 3px;
   transform: rotate(45deg);
@@ -332,9 +336,9 @@ ul {
 .section-title__tagline {
   position: relative;
   display: inline-block;
-  font-size: 14px;
+  font-size: 30px;
   color: var(--Freshflow-base);
-  font-weight: 700;
+  font-weight: 1000;
   text-transform: uppercase;
 }
 

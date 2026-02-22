@@ -14,7 +14,7 @@ const StickyNavInner = () => {
   if (!context) {
     throw new Error("Context Null");
   }
-  const { setSideBar } = context;
+  // const { setSideBar } = context;
 
   const pathName = usePathname();
 
@@ -89,11 +89,11 @@ const StickyNavInner = () => {
                   </Link>
                 </div>
 
-                <div className="main-menu-three__nav-sidebar-icon">
+                {/* <div className="main-menu-three__nav-sidebar-icon">
                   <Link className="navSidebar-button" href="#" onClick={() => setSideBar((pre) => !pre)}>
                     <span className="icon-app"></span>
                   </Link>
-                </div>
+                </div> */}
               </div>
 
             </div>

@@ -235,7 +235,7 @@ const SectionTitle: FC = () => (
                 <div className="section-title__tagline-shape"></div>
                 <div className="section-title__tagline-shape-2"></div>
             </div>
-            <span className="section-title__tagline"> Ready for a Cleaner, Smarter Space?</span>
+            <span className="section-title__tagline"  > Ready for a Cleaner, Smarter Space?</span>
         </div>
         <h2 className="section-title__title title-animation" style={{fontSize:"30px"}}>
         Let CleanSmart Crew handle the cleaning while you focus on what matters most. <br />

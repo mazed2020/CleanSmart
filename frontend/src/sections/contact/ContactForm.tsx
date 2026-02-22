@@ -56,7 +56,7 @@ const ContactForm: React.FC = () => {
         }
     ];
 
-    const handleContactInfo = (e: FormEvent<HTMLFormElement>): void => {
+    const handleContactInfo = async (e: FormEvent<HTMLFormElement>): Promise<void> => {
         e.preventDefault();
         const form = e.target as HTMLFormElement;
         const formData = new FormData(form);
@@ -68,9 +68,24 @@ const ContactForm: React.FC = () => {
             subject: formData.get('subject') as string,
             message: formData.get('message') as string
         };
-        if (userInfo) {
-             console.log(userInfo);
-        }
+        // try {
+        //     const response = await fetch("http://localhost:5000/api/contact",{
+        //         method:"POST",
+        //         headers:{
+        //             "Content-Type":"application/json",
+        //         },
+        //         body:JSON.stringify(userInfo)
+        //     });
+        //     const data= await response.json();
+        //     if(!response.ok){
+        //         throw new Error(data.message || "Something went wrong");
+        //     }
+        //     console.log("Successs :", data)
+            
+        // } catch (error) {
+        //     console.log("message: ",error);
+        // }
+         
         form.reset();
     };
 

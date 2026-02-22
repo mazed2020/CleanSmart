@@ -89,7 +89,7 @@ const Header: React.FC = () => {
               <div className="main-menu__left">
                 <div className="main-menu__logo">
                   <Link href="/">
-                    <Image src={logo_1} alt="FreshFlow Logo" priority />
+                    <Image src={logo_1} alt="Cleansmart logo" priority />
                   </Link>
                 </div>
               </div>

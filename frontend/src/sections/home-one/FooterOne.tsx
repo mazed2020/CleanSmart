@@ -193,7 +193,7 @@ const FooterOne: React.FC = () => {
                             </li>
                             <li>
                               {" "}
-                              <Link href={"/about"}>
+                              <Link href="/about" onClick={(e)=>e.preventDefault()}>
                                 <span className="icon-next"></span> Terms &
                                 Condition
                               </Link>{" "}

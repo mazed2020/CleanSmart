@@ -15,6 +15,7 @@ const PricingCard: React.FC<PricingCartProps> = ({ item }) => {
             <div
                 className={`pricing-two__single ${item.packName === "PREMIUM" ? "pricing-two__single--two" : ""
                     }`}
+                     
             >
                 <div className="pricing-two__shape-1">
                     <Image src={item.image} alt="Pricing shape" />

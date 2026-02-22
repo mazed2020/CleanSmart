@@ -99,12 +99,12 @@ const AboutTow: React.FC = () => {
           <div className="col-xl-6">
             <div className="about-two__right">
               <div className="section-title text-left sec-title-animation animation-style2">
-                <div className="section-title__tagline-box">
+                <div className="section-title__tagline-box" >
                   <div className="section-title__tagline-shape-box">
                     <div className="section-title__tagline-shape"></div>
                     <div className="section-title__tagline-shape-2"></div>
                   </div>
-                  <span className="section-title__tagline">About Us</span>
+                  <span className="section-title__tagline" style={{color:"#EC5800"}}>About Us</span>
                 </div>
                 <h2 className="section-title__title title-animation">
                   <TextAnimation
