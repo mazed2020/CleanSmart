@@ -36,7 +36,6 @@ const ContextProvider: React.FC<{ children: React.ReactNode }> = ({ children }) 
     isSearch,
     setIsSearch,
     isSideBar,
-    setSideBar,
     toggleMobileMenu,
     scrollToSection,
     activeSection,
