@@ -16,8 +16,7 @@ export interface PricingItem {
     text6: string;
     text7: string;
     text8: string;
-
-    
+    design:string
 }
 export interface Accordion {
     id: number,

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import footerimg1 from "../../../public/assets/images/shapes/site-footer-shape-2.png";
-import footerimg2 from "../../../public/assets/images/resources/352x54_removebg.png";
+import footerimg2 from "../../../public/assets/images/resources/352x64.png";
 import footerimg3 from "../../../public/assets/images/shapes/site-footer-shape-1.png";
 import footerimg4 from "../../../public/assets/images/resources/3.5_400x161.png";
 import footerImg from "../../../public/assets/images/resources/3.2. 200x206.png"
@@ -193,14 +193,14 @@ const FooterOne: React.FC = () => {
                             </li>
                             <li>
                               {" "}
-                              <Link href="/about" onClick={(e)=>e.preventDefault()}>
+                              <Link href="/terms&condition"  >
                                 <span className="icon-next"></span> Terms &
                                 Condition
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link href={"/about"}>
+                              <Link href={"/privacy&policy"}>
                                 <span className="icon-next"></span> Privacy
                                 Policy
                               </Link>{" "}

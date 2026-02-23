@@ -11,9 +11,9 @@ interface PricingCartProps {
 const PricingCard: React.FC<PricingCartProps> = ({ item }) => {
      
     return (
-        <div className="col-xl-4 col-lg-6 pricing-margin">
+        <div className="col-xl-4 col-lg-6 pricing-margin  ">
             <div
-                className={`pricing-two__single ${item.packName === "PREMIUM" ? "pricing-two__single--two" : ""
+                className={`${item.design}   ${item.packName === "PREMIUM" ? "pricing-two__single--two" : ""
                     }`}
                      
             >

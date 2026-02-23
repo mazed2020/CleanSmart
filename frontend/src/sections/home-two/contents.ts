@@ -23,6 +23,7 @@ export const pricingContent: PricingItem[] = [
         text6:"Mattress and sofa cleaning",
         text7:"Carpet/Rug cleaning",
         text8:"Car seat steam cleaning",
+        design:"pricing-two__single"
     },
     {
         image: pricContent1,
@@ -40,6 +41,7 @@ export const pricingContent: PricingItem[] = [
         text6:"",
         text7:"",
         text8:"",
+        design:"pricing-two__single1"
     },
     {
         image: pricContent1,
@@ -57,6 +59,7 @@ export const pricingContent: PricingItem[] = [
         text6:"",
         text7:"",
         text8:"",
+        design:"pricing-two__single2"
     },
 ];
 
@@ -77,6 +80,7 @@ export const pricingContentTow: PricingItem[] = [
         text6:"",
         text7:"",
         text8:"",
+        design:"pricing-two__single"
     },
     {
         image: pricContent1,
@@ -94,6 +98,7 @@ export const pricingContentTow: PricingItem[] = [
         text6:"",
         text7:"",
         text8:"",
+        design:"pricing-two__single"
     },
     {
         image: pricContent1,
@@ -111,6 +116,7 @@ export const pricingContentTow: PricingItem[] = [
         text6:"",
         text7:"",
         text8:"",
+        design:"pricing-two__single"
     },
 ];
 
