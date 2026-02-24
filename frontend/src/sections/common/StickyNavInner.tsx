@@ -1,6 +1,6 @@
 'use client';
 
-import image1 from "../../../public/assets/images/resources/352x54_removebg.png";
+import image1 from "../../../public/assets/images/resources/352x64.png";
  
 import Link from "next/link";
 import Image from "next/image";

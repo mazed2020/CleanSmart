@@ -100,7 +100,7 @@ const FooterOne: React.FC = () => {
                           <p>Email Address:</p>
                           <h5>
                             <Link href="#" onClick={handleinfoDom}>
-                              summitsgrp@gmail.com
+                            cleansmartcrew@gmail.com
                             </Link>
                           </h5>
                         </div>

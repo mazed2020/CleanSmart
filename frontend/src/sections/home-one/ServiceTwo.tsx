@@ -20,8 +20,6 @@ import servimg17 from "../../../public/assets/images/services/15. Services 15.pn
 import servimg18 from "../../../public/assets/images/services/16. Services 16.png";
 import servimg19 from "../../../public/assets/images/services/17. Services 17.png";
 
-
-
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import TextAnimation from "@/components/elements/TextAnimation";
@@ -37,7 +35,7 @@ interface HoverItem {
   id: number;
 }
 // residential cleaning data
-const  residentialItems: HoverItem[] = [
+const residentialItems: HoverItem[] = [
   {
     id: 1,
     title: "Regular Home Cleaning",
@@ -182,7 +180,6 @@ const hoverItems: HoverItem[] = [
   },
 ];
 
-
 const ServiceTwo: React.FC = () => {
   const [xPosition, setXPosition] = useState<number>(0);
   const [mouseEnter, setMouseEnter] = useState<number>(0);
@@ -198,7 +195,7 @@ const ServiceTwo: React.FC = () => {
   const scrollToSection = (id: string) => {
     const el = document.getElementById(id);
     if (!el) return;
-  
+
     const y = el.getBoundingClientRect().top + window.scrollY;
     const offset = 120; // adjust if you have sticky header
     window.scrollTo({ top: y - offset, behavior: "smooth" });
@@ -207,14 +204,16 @@ const ServiceTwo: React.FC = () => {
     border: "none",
     padding: "10px 18px",
     borderRadius: "999px",
-    fontSize: "14px",
+    fontSize: "18px",
     fontWeight: 600,
     background: "#2563eb",
     color: "#ffffff",
     cursor: "pointer",
+    translate: "",
+
     transition: "all 0.2s ease",
   };
-  
+
   return (
     <section className="services-two">
       <div className="services-two__shape-bg-1"></div>
@@ -236,54 +235,65 @@ const ServiceTwo: React.FC = () => {
               <div className="section-title__tagline-shape"></div>
               <div className="section-title__tagline-shape-2"></div>
             </div>
-            <span className="section-title__tagline">Our Services</span>
+            <span
+              className="section-title__tagline"
+              style={{ color: "#ec5800" }}
+            >
+              Our Services
+            </span>
           </div>
-          <h2 className="section-title__title title-custom-animation">
+          <h2
+            className="section-title__title title-custom-animation"
+            style={{ paddingTop: "1rem" }}
+          >
             <TextAnimation
               text="Explore the Full Range of Services We"
               textColor="black"
             />
-            <TextAnimation text="Offer to Meet Your Needs" />
+            <TextAnimation text="Offer to Meet Your Needs" textColor="black" />
           </h2>
         </div>
         {/* three button here adding */}
-        <div style={{ display: "flex", justifyContent: "center", marginBottom: "60px" }}>
-  <div
-    style={{
-      display: "flex",
-      padding: "6px",
-      background: "#ffffff",
-      borderRadius: "999px",
-      boxShadow: "0 8px 18px rgba(0,0,0,0.08)",
-      gap: "6px",
-    }}
-  >
-    <button
-      onClick={() => scrollToSection("residential-cleaning")}
-      style={btnStyle}
-    >
-      Residential
-    </button>
+        <div
+        
+          style={{
+            display: "flex",
+            justifyContent: "center",
+             position:"relative",
+            marginBottom: "60px",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              padding: "6px",
+              background: "#ffffff",
+              borderRadius: "999px",
+              boxShadow: "0 8px 18px rgba(0,0,0,0.08)",
+              gap: "6px",
+            }}
+          >
+            <button
+              onClick={() => scrollToSection("residential-cleaning")}
+              style={btnStyle}
+            >
+              Residential
+            </button>
 
-    <button
-      onClick={() => scrollToSection("commercial-cleaning")}
-      style={btnStyle}
-    >
-      Commercial
-    </button>
-    <button
-      onClick={() => scrollToSection("special-cleaning")}
-      style={btnStyle}
-    >
-      Specialised
-    </button>
-  </div>
-</div>
-
-
-
-
-
+            <button
+              onClick={() => scrollToSection("commercial-cleaning")}
+              style={btnStyle}
+            >
+              Commercial
+            </button>
+            <button
+              onClick={() => scrollToSection("special-cleaning")}
+              style={btnStyle}
+            >
+              Specialised
+            </button>
+          </div>
+        </div>
 
         {/* section 1 */}
         <div id="residential-cleaning">
@@ -307,8 +317,13 @@ const ServiceTwo: React.FC = () => {
                     <div className="services-two__title-box">
                       <div className="services-two__count"></div>
                       {/* style={{fontSize:"18px"}} */}
-                      <h3 className="services-two__title" >
-                        <Link href={item.itemLink} onClick={(e)=>e.preventDefault()}>{item.title}</Link>
+                      <h3 className="services-two__title">
+                        <Link
+                          href={item.itemLink}
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          {item.title}
+                        </Link>
                       </h3>
                     </div>
                   </div>
@@ -343,7 +358,7 @@ const ServiceTwo: React.FC = () => {
             </ul>
           </div>
         </div>
-        
+
         {/* section 2 */}
         <div id="commercial-cleaning">
           <SectionHeading title="Commercial Cleaning" />
@@ -366,7 +381,12 @@ const ServiceTwo: React.FC = () => {
                     <div className="services-two__title-box">
                       <div className="services-two__count"></div>
                       <h3 className="services-two__title">
-                        <Link href={item.itemLink} onClick={(e)=>e.preventDefault()}>{item.title}</Link>
+                        <Link
+                          href={item.itemLink}
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          {item.title}
+                        </Link>
                       </h3>
                     </div>
                   </div>
@@ -424,7 +444,9 @@ const ServiceTwo: React.FC = () => {
                     <div className="services-two__title-box">
                       <div className="services-two__count"></div>
                       <h3 className="services-two__title">
-                        <Link href={""} onClick={(e)=>e.preventDefault()}>{item.title}</Link>
+                        <Link href={""} onClick={(e) => e.preventDefault()}>
+                          {item.title}
+                        </Link>
                       </h3>
                     </div>
                   </div>

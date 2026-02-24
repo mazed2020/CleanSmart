@@ -25,7 +25,7 @@ const contactInfoList: ContactInfo[] = [
         content: ['Phone:', 'Email:'],
         links: [
             { type: 'tel', value: '0435 139 276' },
-            { type: 'email', value: 'summitsgrp@gmail.com' }
+            { type: 'email', value: 'cleansmartcrew@gmail.com' }
         ]
     },
     {
@@ -50,11 +50,11 @@ const ContactUs: React.FC = () => {
                                         <div className="section-title__tagline-shape"></div>
                                         <div className="section-title__tagline-shape-2"></div>
                                     </div>
-                                    <span className="section-title__tagline">Get In touch</span>
+                                    <span className="section-title__tagline" style={{color:"#ec5800",  }}>Get In touch</span>
                                 </div>
-                                <h2 className="section-title__title title-animation">
+                                <h2 className="section-title__title title-animation" style={{paddingTop:"1rem"}}>
                                     <TextAnimation text='Reach Out to Us for' textColor='black' /> <br></br>
-                                    <TextAnimation text='Assistance or Inquiries' />
+                                    <TextAnimation text='Assistance or Inquiries' textColor='black' />
                                 </h2>
                             </div>
                             <p className="contact-four__left-text">{`We're`} Here to Help—Contact Us Today!</p>

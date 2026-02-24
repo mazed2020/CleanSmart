@@ -40,9 +40,7 @@ const WhyChooseOne: React.FC = () => {
                 <div className="why-choose-one__shape-2 float-bob-x">
                     <Image src={whych1} alt="" />
                 </div>
-                <div className="why-choose-one__big-title">
-                    <h3>100% SATISFACTION </h3>
-                </div>
+                 
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-6">
@@ -57,11 +55,14 @@ const WhyChooseOne: React.FC = () => {
                                             Why Choose Us
                                         </span>
                                     </div>
-                                    <h2 className="section-title__title title-animation" style={{width:"100hv"}}>
-                                        <TextAnimation text='We follow structured cleaning processes ' textColor='black' />
-                                        <TextAnimation text='to ensure spotless, hygienic, and safe environments. ' textColor='black' />
+                                    <h2 className="section-title__title title-animation" style={{width:"100hv", paddingTop:""}}>
+                                       <div style={{width:"100vw", fontSize:"32px", paddingTop:"1rem"}}> <p>We follow structured cleaning processes to ensure spotless, hygienic, and safe environments.</p></div>
+                                        {/* <TextAnimation text='We follow structured cleaning processes ' textColor='black' />
+                                        <TextAnimation text='to ensure spotless, hygienic, and safe environments. ' textColor='black' /> */}
+                                        <div style={{paddingTop:"0.8rem"}}>
                                         <TextAnimation text='Every job is completed with attention' />
                                         <TextAnimation text=' to detail and quality checks!' />
+                                        </div>
                                     </h2>
                                 </div>
                                 <motion.div

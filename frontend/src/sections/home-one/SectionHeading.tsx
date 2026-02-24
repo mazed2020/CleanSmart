@@ -9,17 +9,18 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({ title }) => {
     <div
       style={{
         width: "100%",
-        padding: "80px 0",
+        padding: "50px 0",
         display: "flex",
         justifyContent: "center",
-        background: "linear-gradient(to right, #f8fafc, #ffffff)",
+        borderRadius:"20px 20px 0px 0px",
+        background: "#ffffff ",
       }}
     >
       <h2
         style={{
-          fontSize: "44px",
+          fontSize: "35px",
           fontWeight: "700",
-          color: "#0f172a",
+          color: "#2563eb",
           position: "relative",
         }}
       >
@@ -32,7 +33,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({ title }) => {
             transform: "translateX(-50%)",
             width: "80px",
             height: "4px",
-            backgroundColor: "#22c55e",
+            backgroundColor: "#ec5800",
             borderRadius: "2px",
           }}
         />

@@ -97,9 +97,9 @@ const ContactForm: React.FC = () => {
                         <div className="section-title__tagline-shape"></div>
                         <div className="section-title__tagline-shape-2"></div>
                     </div>
-                    <span className="section-title__tagline">Contact US</span>
+                    <span className="section-title__tagline" style={{color:"#ec5800"}}>Contact US</span>
                 </div>
-                <h2 className="section-title__title title-animation"><TextAnimation text='Send Message' textColor='black'/> </h2>
+                <h2 className="section-title__title title-animation" style={{paddingTop:"1rem"}}><TextAnimation text='Send Message' textColor='black'/> </h2>
             </div>
             <form className="contact-form-validated contact-four__form" onSubmit={handleContactInfo}>
                 <div className="row">

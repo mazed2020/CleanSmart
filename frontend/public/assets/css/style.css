@@ -73,6 +73,7 @@ body {
   --Freshflow-gray: #626F82;
   --Freshflow-gray-rgb: 98, 111, 130;
   --Freshflow-base: #2E72FF;
+   
   --Freshflow-base-rgb: 46, 114, 255;
   --Freshflow-black: #05173D;
   --Freshflow-black-rgb: 5, 23, 61;
@@ -336,7 +337,7 @@ ul {
 .section-title__tagline {
   position: relative;
   display: inline-block;
-  font-size: 30px;
+  font-size: 35px;
   color: var(--Freshflow-base);
   font-weight: 1000;
   text-transform: uppercase;
@@ -344,7 +345,7 @@ ul {
 
 .section-title__title {
   color: var(--Freshflow-black);
-  font-size: 36px;
+  font-size: 30px;
   line-height: 47px;
   font-weight: 700;
   /* text-transform: capitalize; */

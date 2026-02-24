@@ -62,8 +62,8 @@ const BannerInner: React.FC<BannerOneProps> = ({
                   </div>
                   <div className="text">
                     <p>
-                      <Link href="summitsgrp@gmail.com">
-                      summitsgrp@gmail.com
+                      <Link href="cleansmartcrew@gmail.com">
+                      cleansmartcrew@gmail.com
                       </Link>
                     </p>
                   </div>

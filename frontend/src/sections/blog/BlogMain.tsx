@@ -32,11 +32,11 @@ const BlogMain: React.FC = () => {
                                 <div className="section-title__tagline-shape"></div>
                                 <div className="section-title__tagline-shape-2"></div>
                             </div>
-                            <span className="section-title__tagline">OUR INSIGHT</span>
+                            <span className="section-title__tagline" style={{color:"#ec5800"}}>OUR INSIGHT</span>
                         </div>
-                        <h2 className="section-title__title ">
+                        <h2 className="section-title__title " style={{paddingTop:"1rem"}}>
                             <TextAnimation text='Discover Insights and Tips' textColor='black' /> <br></br>
-                            <TextAnimation text='in Our Latest Articles' />
+                            <TextAnimation text='in Our Latest Articles' textColor='black' />
                         </h2>
                     </div>
                     <div className="blog-one__btn-box">
