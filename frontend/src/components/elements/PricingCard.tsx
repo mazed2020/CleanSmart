@@ -21,7 +21,7 @@ const PricingCard: React.FC<PricingCartProps> = ({ item }) => {
                     <Image src={item.image} alt="Pricing shape" />
                 </div>
                  
-                <div className="pricing-two__pack-name"  style={{backgroundColor:"#FF7F50"}} >
+                <div className="pricing-two__pack-name"    >
                     <p style={{fontSize:"23px", }}>{item.packName}</p>
                 </div>
                  

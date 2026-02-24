@@ -8,8 +8,18 @@ import servimg5 from "../../../public/assets/images/services/3. Services 3.png";
 import servimg6 from "../../../public/assets/images/services/4. Services 4.png";
 import servimg7 from "../../../public/assets/images/services/5. Services 5.png";
 import servimg8 from "../../../public/assets/images/services/6. Services 6.png";
-import servimg9 from "../../../public/assets/images/services/services-2-5.jpg";
-import servimg10 from "../../../public/assets/images/services/services-2-5.jpg";
+import servimg9 from "../../../public/assets/images/services/7. Services 7.png";
+import servimg10 from "../../../public/assets/images/services/8. Services 8.png";
+import servimg11 from "../../../public/assets/images/services/9. Services 9.png";
+import servimg12 from "../../../public/assets/images/services/10. Services 10.png";
+import servimg13 from "../../../public/assets/images/services/11. Services 11.png";
+import servimg14 from "../../../public/assets/images/services/12. Services 12.png";
+import servimg15 from "../../../public/assets/images/services/13. Services 13.png";
+import servimg16 from "../../../public/assets/images/services/14. Services 14.png";
+import servimg17 from "../../../public/assets/images/services/15. Services 15.png";
+import servimg18 from "../../../public/assets/images/services/16. Services 16.png";
+import servimg19 from "../../../public/assets/images/services/17. Services 17.png";
+
 
 
 import Image, { StaticImageData } from "next/image";
@@ -95,13 +105,13 @@ const  residentialItems: HoverItem[] = [
 ];
 //Commercial Cleaning
 
-const  commercialItems: HoverItem[] = [
+const commercialItems: HoverItem[] = [
   {
     id: 1,
     title: "Office Cleaning",
     text1: "Reliable office cleaning to maintain a clean, organised,",
     text2: "and productive work environment for your team and clients.",
-    image: servimg3,
+    image: servimg11,
     itemLink: "/office-cleaning",
   },
   {
@@ -109,7 +119,7 @@ const  commercialItems: HoverItem[] = [
     title: "Retail Cleaning",
     text1: "Detail-focused retail cleaning that keeps your store spotless,",
     text2: "welcoming, and aligned with your brand image.",
-    image: servimg4,
+    image: servimg12,
     itemLink: "/retail-cleaning",
   },
   {
@@ -117,7 +127,7 @@ const  commercialItems: HoverItem[] = [
     title: "Workspace Sanitation",
     text1: "Thorough sanitisation of workstations and high-touch surfaces",
     text2: "to promote hygiene and employee wellbeing.",
-    image: servimg5,
+    image: servimg13,
     itemLink: "/workspace-sanitation",
   },
   {
@@ -125,7 +135,7 @@ const  commercialItems: HoverItem[] = [
     title: "Common Area Cleaning",
     text1: "Consistent cleaning of shared spaces to ensure cleanliness,",
     text2: "safety, and a positive experience for everyone.",
-    image: servimg6,
+    image: servimg14,
     itemLink: "/common-area-cleaning",
   },
   {
@@ -133,18 +143,17 @@ const  commercialItems: HoverItem[] = [
     title: "Restroom and Kitchen Cleaning",
     text1: "Deep cleaning and disinfection of restrooms and kitchen areas",
     text2: "for hygiene, freshness, and daily comfort.",
-    image: servimg7,
+    image: servimg15,
     itemLink: "/restroom-kitchen-cleaning",
   },
 ];
-
 const hoverItems: HoverItem[] = [
   {
     id: 1,
     title: "Post-Construction Cleaning",
     text1: "Detailed cleaning to remove dust, debris, and residue,",
     text2: "leaving newly built or renovated spaces spotless and ready to use.",
-    image: servimg3,
+    image: servimg16,
     itemLink: "/post-construction-cleaning",
   },
   {
@@ -152,7 +161,7 @@ const hoverItems: HoverItem[] = [
     title: "One-Time Deep Cleaning",
     text1: "Intensive top-to-bottom cleaning designed to refresh your",
     text2: "space and eliminate built-up dirt, grime, and hidden contaminants.",
-    image: servimg4,
+    image: servimg17,
     itemLink: "/one-time-deep-cleaning",
   },
   {
@@ -160,7 +169,7 @@ const hoverItems: HoverItem[] = [
     title: "Event Cleaning",
     text1: "Pre- and post-event cleaning services to keep your venue",
     text2: "clean, organised, and presentable for every occasion.",
-    image: servimg5,
+    image: servimg18,
     itemLink: "/event-cleaning",
   },
   {
@@ -168,7 +177,7 @@ const hoverItems: HoverItem[] = [
     title: "Customized Cleaning Plans",
     text1: "Flexible cleaning solutions tailored to your specific space,",
     text2: "schedule, and service requirements.",
-    image: servimg6,
+    image: servimg19,
     itemLink: "/customized-cleaning-plans",
   },
 ];

@@ -123,73 +123,59 @@ export const pricingContentTow: PricingItem[] = [
 
 export const accordionItems1: Accordion[] = [
     {
-        title: `What types of cleaning services do you offer?`,
-        description: `Yes, we use eco-friendly and non-toxic cleaning products to ensure safety
-            for your family, pets, and the environment. You can schedule a cleaning
-            by calling us, booking online, or using our mobile app for flexible and
-            convenient scheduling.`,
-        id: 1
+      title: `What areas do you service?`,
+      description: `Please send queries via our Contact Us page for our current service area coverage.`,
+      id: 1
     },
     {
-        title: `Are your cleaning products eco-friendly?`,
-        description: `Yes, we use eco-friendly and non-toxic cleaning products to ensure safety
-            for your family, pets, and the environment. You can schedule a cleaning
-            by calling us, booking online, or using our mobile app for flexible and
-            convenient scheduling.`,
-        id: 2
+      title: `Do I need to be home during the cleaning?`,
+      description: `No, as long as we have safe access to the property, you don’t need to be present.`,
+      id: 2
     },
     {
-        title: `Do I need to be home during the cleaning service?`,
-        description: `Yes, we use eco-friendly and non-toxic cleaning products to ensure safety
-            for your family, pets, and the environment. You can schedule a cleaning
-            by calling us, booking online, or using our mobile app for flexible and
-            convenient scheduling`,
-        id: 3
+      title: `Do you bring your own cleaning equipment and products?`,
+      description: `Yes, our team arrives fully equipped with professional tools and eco-friendly cleaning solutions.`,
+      id: 3
     },
     {
-        title: `What if I’m not satisfied with the cleaning service?`,
-        description: `Yes, we use eco-friendly and non-toxic cleaning products to ensure safety
-            for your family, pets, and the environment. You can schedule a cleaning
-            by calling us, booking online, or using our mobile app for flexible and
-            convenient scheduling.`,
-        id: 4
-    },
-]
-export const accordionItems2: Accordion[] = [
-    {
-        title: `What types of cleaning services do you offer?`,
-        description: `Yes, we use eco-friendly and non-toxic cleaning products to ensure safety
-            for your family, pets, and the environment. You can schedule a cleaning
-            by calling us, booking online, or using our mobile app for flexible and
-            convenient scheduling.`,
-        id: 5
+      title: `How long does a typical cleaning service take?`,
+      description: `The duration depends on the size of the property and the type of service booked.`,
+      id: 4
     },
     {
-        title: `Are your cleaning products eco-friendly?`,
-        description: `Yes, we use eco-friendly and non-toxic cleaning products to ensure safety
-            for your family, pets, and the environment. You can schedule a cleaning
-            by calling us, booking online, or using our mobile app for flexible and
-            convenient scheduling.`,
-        id: 6
-    },
-    {
-        title: `Do I need to be home during the cleaning service?`,
-        description: `Yes, we use eco-friendly and non-toxic cleaning products to ensure safety
-            for your family, pets, and the environment. You can schedule a cleaning
-            by calling us, booking online, or using our mobile app for flexible and
-            convenient scheduling`,
-        id: 7
-    },
-    {
-        title: `What if I’m not satisfied with the cleaning service?`,
-        description: `Yes, we use eco-friendly and non-toxic cleaning products to ensure safety
-            for your family, pets, and the environment. You can schedule a cleaning
-            by calling us, booking online, or using our mobile app for flexible and
-            convenient scheduling.`,
-        id: 8
-    },
-]
+      title: `Do you offer end-of-lease cleaning with a bond-back guarantee?`,
+      description: `Yes, our end-of-lease cleaning is designed to meet real estate inspection standards.`,
+      id: 5
+    }
+  ];
 
+  export const accordionItems2: Accordion[] = [
+    {
+      title: `Can I customise my cleaning service?`,
+      description: `Absolutely. We offer flexible and tailored cleaning plans to suit your needs.`,
+      id: 6
+    },
+    {
+      title: `Are your cleaners insured and trained?`,
+      description: `Yes, all our cleaners are trained, experienced, and fully insured.`,
+      id: 7
+    },
+    {
+      title: `What if I’m not satisfied with the service?`,
+      description: `Contact us within 24 hours, and we will address your concern. If needed, we will arrange a re-clean of the concerned areas.`,
+      id: 8
+    },
+    {
+      title: `How do I make a booking?`,
+      description: `You can book through our website, call us, or request a free quote online.`,
+      id: 9
+    },
+    {
+      title: `What payment methods do you accept?`,
+      description: `We accept secure online payments and other approved payment options.`,
+      id: 10
+    }
+  ];
 
 export const blogsHomeTow: BlogHomeTow[] = [
     {

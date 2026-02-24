@@ -231,14 +231,14 @@ const ImageSection: FC = () => (
 const SectionTitle: FC = () => (
     <div className="section-title text-left sec-title-animation animation-style2">
         <div className="section-title__tagline-box">
-            <div className="section-title__tagline-shape-box">
+            <div className="section-title__tagline-shape-box" >
                 <div className="section-title__tagline-shape"></div>
-                <div className="section-title__tagline-shape-2"></div>
+                <div className="section-title__tagline-shape-2" ></div>
             </div>
-            <span className="section-title__tagline"  > Ready for a Cleaner, Smarter Space?</span>
+            <span className="section-title__tagline"   > Ready for a Cleaner, Smarter Space?</span>
         </div>
-        <h2 className="section-title__title title-animation" style={{fontSize:"30px"}}>
-        Let CleanSmart Crew handle the cleaning while you focus on what matters most. <br />
+        <h2 className="section-title__title title-animation" style={{fontSize:"25px", paddingTop:"1.8rem"}}>
+        Let CleanSmart Crew handle the cleaning while you focus on what matters most.  
  Get in touch today for a free quote and experience professional cleaning done right.
         </h2>
     </div>

@@ -57,7 +57,7 @@ const WhyChooseOne: React.FC = () => {
                                             Why Choose Us
                                         </span>
                                     </div>
-                                    <h2 className="section-title__title title-animation" style={{width:"90vh"}}>
+                                    <h2 className="section-title__title title-animation" style={{width:"100hv"}}>
                                         <TextAnimation text='We follow structured cleaning processes ' textColor='black' />
                                         <TextAnimation text='to ensure spotless, hygienic, and safe environments. ' textColor='black' />
                                         <TextAnimation text='Every job is completed with attention' />
@@ -82,13 +82,7 @@ const WhyChooseOne: React.FC = () => {
                                             <div className="why-choose-one__shape-1 rotate-me">
                                                 <Image src={whych3} alt="" />
                                             </div>
-                                            <div className="why-choose-one__round-text-box">
-                                                <div className="why-choose-one__round-text-box-inner">
-                                                    <div className="why-choose-one__curved-circle">
-                                                        Cleaning * Moping * Dusting *
-                                                    </div>
-                                                </div>
-                                            </div>
+                                             
                                         </div>
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-md-6">

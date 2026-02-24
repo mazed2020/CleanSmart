@@ -897,9 +897,12 @@
 }
 
 .pricing-two__single:hover .pricing-two__pack-name,
-.pricing-two__single.active .pricing-two__pack-name {
+.pricing-two__single.active .pricing-two__pack-name,
+.pricing-two__single1:hover .pricing-two__pack-name,
+.pricing-two__single1.active .pricing-two__pack-name,
+.pricing-two__single2:hover .pricing-two__pack-name,
+.pricing-two__single2.active .pricing-two__pack-name {
     background-color: rgba(var(--Freshflow-white-rgb), .20);
-
 }
 
 .pricing-two__pack-name p {
@@ -914,7 +917,11 @@
 }
 
 .pricing-two__single:hover .pricing-two__pack-name p,
-.pricing-two__single.active .pricing-two__pack-name p {
+.pricing-two__single.active .pricing-two__pack-name p,
+.pricing-two__single1:hover .pricing-two__pack-name p,
+.pricing-two__single1.active .pricing-two__pack-name p,
+.pricing-two__single2:hover .pricing-two__pack-name p,
+.pricing-two__single2.active .pricing-two__pack-name p {
     color: var(--Freshflow-white);
 }
 
@@ -938,7 +945,11 @@
 }
 
 .pricing-two__single:hover .pricing-two__price-box,
-.pricing-two__single.active .pricing-two__price-box {
+.pricing-two__single.active .pricing-two__price-box,
+.pricing-two__single1:hover .pricing-two__price-box,
+.pricing-two__single1.active .pricing-two__price-box,
+.pricing-two__single2:hover .pricing-two__price-box,
+.pricing-two__single2.active .pricing-two__price-box {
     color: var(--Freshflow-white);
 }
 
@@ -961,7 +972,11 @@
 }
 
 .pricing-two__single:hover .pricing-two__price-box .validity,
-.pricing-two__single.active .pricing-two__price-box .validity {
+.pricing-two__single.active .pricing-two__price-box .validity,
+.pricing-two__single1:hover .pricing-two__price-box .validity,
+.pricing-two__single1.active .pricing-two__price-box .validity,
+.pricing-two__single2:hover .pricing-two__price-box .validity,
+.pricing-two__single2.active .pricing-two__price-box .validity {
     color: var(--Freshflow-white);
 }
 
@@ -974,7 +989,11 @@
 }
 
 .pricing-two__single:hover .pricing-two__text,
-.pricing-two__single.active .pricing-two__text {
+.pricing-two__single.active .pricing-two__text,
+.pricing-two__single1:hover .pricing-two__text,
+.pricing-two__single1.active .pricing-two__text,
+.pricing-two__single2:hover .pricing-two__text,
+.pricing-two__single2.active .pricing-two__text {
     color: var(--Freshflow-white);
 }
 
@@ -991,7 +1010,11 @@
 }
 
 .pricing-two__single:hover .pricing-two__btn-box,
-.pricing-two__single.active .pricing-two__btn-box {
+.pricing-two__single.active .pricing-two__btn-box,
+.pricing-two__single1:hover .pricing-two__btn-box,
+.pricing-two__single1.active .pricing-two__btn-box,
+.pricing-two__single2:hover .pricing-two__btn-box,
+.pricing-two__single2.active .pricing-two__btn-box {
     border-top: 1px solid #2E72FF;
     border-bottom: 1px solid #2E72FF;
 }
@@ -1003,7 +1026,11 @@
 }
 
 .pricing-two__single:hover .pricing-two__btn-box .thm-btn,
-.pricing-two__single.active .pricing-two__btn-box .thm-btn {
+.pricing-two__single.active .pricing-two__btn-box .thm-btn,
+.pricing-two__single1:hover .pricing-two__btn-box .thm-btn,
+.pricing-two__single1.active .pricing-two__btn-box .thm-btn,
+.pricing-two__single2:hover .pricing-two__btn-box .thm-btn,
+.pricing-two__single2.active .pricing-two__btn-box .thm-btn {
     color: var(--Freshflow-black);
 }
 
@@ -1012,7 +1039,11 @@
 }
 
 .pricing-two__single:hover .pricing-two__btn-box .thm-btn::after,
-.pricing-two__single.active .pricing-two__btn-box .thm-btn::after {
+.pricing-two__single.active .pricing-two__btn-box .thm-btn::after,
+.pricing-two__single1:hover .pricing-two__btn-box .thm-btn::after,
+.pricing-two__single1.active .pricing-two__btn-box .thm-btn::after,
+.pricing-two__single2:hover .pricing-two__btn-box .thm-btn::after,
+.pricing-two__single2.active .pricing-two__btn-box .thm-btn::after {
     clip-path: circle(100% at 50% 50%);
     transition: all cubic-bezier(0, 0.96, 0.58, 1.1) 4s;
 }
@@ -1022,7 +1053,11 @@
 }
 
 .pricing-two__single:hover .pricing-two__btn-box .thm-btn span,
-.pricing-two__single.active .pricing-two__btn-box .thm-btn span {
+.pricing-two__single.active .pricing-two__btn-box .thm-btn span,
+.pricing-two__single1:hover .pricing-two__btn-box .thm-btn span,
+.pricing-two__single1.active .pricing-two__btn-box .thm-btn span,
+.pricing-two__single2:hover .pricing-two__btn-box .thm-btn span,
+.pricing-two__single2.active .pricing-two__btn-box .thm-btn span {
     background-color: rgba(var(--Freshflow-white-rgb), .20);
     color: var(--Freshflow-black);
     transition-delay: 200ms;
@@ -1061,7 +1096,11 @@
 }
 
 .pricing-two__single:hover .pricing-two__points li .icon span,
-.pricing-two__single.active .pricing-two__points li .icon span {
+.pricing-two__single.active .pricing-two__points li .icon span,
+.pricing-two__single1:hover .pricing-two__points li .icon span,
+.pricing-two__single1.active .pricing-two__points li .icon span,
+.pricing-two__single2:hover .pricing-two__points li .icon span,
+.pricing-two__single2.active .pricing-two__points li .icon span {
     color: var(--Freshflow-white);
 }
 
@@ -1080,7 +1119,11 @@
 }
 
 .pricing-two__single:hover .pricing-two__points li .text p,
-.pricing-two__single.active .pricing-two__points li .text p {
+.pricing-two__single.active .pricing-two__points li .text p,
+.pricing-two__single1:hover .pricing-two__points li .text p,
+.pricing-two__single1.active .pricing-two__points li .text p,
+.pricing-two__single2:hover .pricing-two__points li .text p,
+.pricing-two__single2.active .pricing-two__points li .text p {
     color: var(--Freshflow-white);
 }
 
