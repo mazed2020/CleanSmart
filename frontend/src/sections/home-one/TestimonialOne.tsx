@@ -23,9 +23,9 @@ const TestimonialOne: React.FC = () => {
                         </div>
                         <span className="section-title__tagline" style={{color:"#EC5800"}}>Testimonial</span>
                     </div>
-                    <h2 className="section-title__title title-animation">
+                    <h2 className="section-title__title title-animation" style={{fontSize:"30px", marginTop:"1.6rem"}}>
                         <TextAnimation text='Hear from our satisfied' textColor='black' /> <br></br>
-                        <TextAnimation text='clients who praise' />
+                        <TextAnimation text='clients who praise' textColor='black'/>
                     </h2>
                 </div>
                 <TestimonialSlider />

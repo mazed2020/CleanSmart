@@ -6,7 +6,7 @@ export default function PageHeadingTC() {
           fontWeight: "bold",
           textAlign: "center",
           marginTop: "40px",
-          color: "#222",
+          color: "#ec5800",
         }}
       >
          Terms and Condition

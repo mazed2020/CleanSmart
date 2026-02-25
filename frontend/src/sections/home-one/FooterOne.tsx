@@ -214,7 +214,7 @@ const FooterOne: React.FC = () => {
                           <ul className="footer-widget__quick-links-list list-unstyled">
                             <li>
                               {" "}
-                              <Link href={"/pricing-carousel"}>
+                              <Link href={"/services"}>
                                 <span className="icon-next"></span> Residential
                                 Cleaning
                               </Link>{" "}
@@ -222,7 +222,7 @@ const FooterOne: React.FC = () => {
 
                             <li>
                               {" "}
-                              <Link href={"/pricing-carousel"}>
+                              <Link href={"/services"}>
                                 <span className="icon-next"></span>Commercial
                                 Cleaning
                               </Link>{" "}
@@ -230,7 +230,7 @@ const FooterOne: React.FC = () => {
 
                             <li>
                               {" "}
-                              <Link href={"/pricing-carousel"}>
+                              <Link href={"/services"}>
                                 <span className="icon-next"></span> Specialized
                                 Cleaning
                               </Link>{" "}

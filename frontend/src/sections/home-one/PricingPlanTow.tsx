@@ -27,7 +27,7 @@ const PricingPlanTow: React.FC = () => {
                         </div>
                         <span className="section-title__tagline" style={{color:"#EC5800"}}>Plans & Pricing</span>
                     </div>
-                    <h2 className="section-title__title title-custom-animation" >
+                    <h2 className="section-title__title title-custom-animation" style={{fontSize:"30px", marginTop:"1.6rem"}} >
                         <TextAnimation text='Explore Our Affordable and' textColor='black' />
                         <TextAnimation text='Flexible Pricing Options' />
                     </h2>

@@ -50,7 +50,7 @@ const PricingCard: React.FC<PricingCartProps> = ({ item }) => {
                     </ul>
                 </div>
                 <div className="pricing-two__btn-box">
-                    <Link href="#" className="thm-btn">
+                    <Link href="/services" className="thm-btn">
                         Choose Plan
                         <span>
                             <i className="icon-plus"></i>

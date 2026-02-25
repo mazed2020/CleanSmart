@@ -106,8 +106,8 @@ const AboutTow: React.FC = () => {
                   </div>
                   <span className="section-title__tagline" style={{color:"#EC5800"}}>About Us</span>
                 </div>
-                <h2 className="section-title__title title-animation">
-                  <TextAnimation
+                <h2 className="section-title__title title-animation" style={{fontSize:"30px", marginTop:"1.6rem"}}>
+                  <TextAnimation  
                     text="Built on Trust, Quality & a Smarter"
                     textColor="black"
                   />
@@ -115,7 +115,7 @@ const AboutTow: React.FC = () => {
                     text="Approach to Professional Cleaning"
                     textColor="black"
                   />
-                  <TextAnimation text="Clean_Smart_Living" />
+                  <TextAnimation text="Clean_Smart_Living"  />
                 </h2>
               </div>
               <p className="about-two__text">

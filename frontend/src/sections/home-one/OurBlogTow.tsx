@@ -20,7 +20,7 @@ const OurBlogTow: React.FC = () => {
                         </div>
                         <span className="section-title__tagline" style={{color:"#EC5800"}}>Our Blogs</span>
                     </div>
-                    <h2 className="section-title__title title-custom-animation">
+                    <h2 className="section-title__title title-custom-animation" style={{fontSize:"30px", marginTop:"1.6rem"}}>
                         <TextAnimation text='Destination for Inspiration' textColor='black' />
                         <TextAnimation text='Tips, Plan and Stories' />
                     </h2>

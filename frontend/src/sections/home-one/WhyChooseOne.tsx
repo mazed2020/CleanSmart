@@ -98,7 +98,7 @@ const WhyChooseOne: React.FC = () => {
                                                     onClick={(e) =>
                                                         handleVideoClick(
                                                             e,
-                                                            "https://www.youtube.com/embed/MLpWrANjFbI?autoplay=1"
+                                                            "https://youtu.be/l-G9cWTEObM?autoplay=1"
                                                         )
                                                     }
                                                     className="video-popup"

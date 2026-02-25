@@ -35,7 +35,7 @@ export interface TestimonialCarouselitem {
     description: string,
     clientName: string,
     subTitle: string,
-    image: string | StaticImageData,
+    
 }
 
 

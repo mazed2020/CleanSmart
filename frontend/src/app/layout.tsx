@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import 'swiper/css/pagination';
 import CustomLayout from "@/components/layout/CustomLayout";
+import { Toaster } from "react-hot-toast";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -34,6 +35,7 @@ export default function RootLayout({
         <ContextProvider>
           <CustomLayout>
             {children}
+            <Toaster position="top-center"/>
           </CustomLayout>
         </ContextProvider>
       </body>

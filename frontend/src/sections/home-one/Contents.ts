@@ -6,10 +6,7 @@ import proj3 from "../../../public/assets/images/project/project-1-3.jpg";
 import proj4 from "../../../public/assets/images/project/project-1-4.jpg";
 import proj5 from "../../../public/assets/images/project/project-1-5.jpg";
 
-import aboutSec8 from "../../../public/assets/images/testimonial/testimonial-client-1-1.jpg"
-import aboutSec9 from "../../../public/assets/images/testimonial/testimonial-client-1-2.jpg"
-import aboutSec10 from "../../../public/assets/images/testimonial/testimonial-client-1-3.jpg"
-import aboutSec11 from "../../../public/assets/images/testimonial/testimonial-client-1-3.jpg"
+ 
 
 import pricing5 from "../../../public/assets/images/resources/pricing-one-1-1.jpg"
 import pricing8 from "../../../public/assets/images/resources/pricing-one-1-2.jpg"
@@ -129,34 +126,27 @@ export const testimonialCarosel: TestimonialCarouselitem[] = [
     {
         id: 1,
         topTitle: "Awesome Services",
-        description: `The cleaning team has been an absolute lifesaver! They go 
-            above and beyond to make sure my home looks immaculate. Every surface sparkles, and they
-            even take care of the small details that most services overlook. I can’t recommend them enough!`,
-        clientName: `– David R.`,
-        subTitle: `Founder & CEO`,
-        image: aboutSec8
+        description: `Booked a regular clean and honestly the difference is huge. Floors, kitchen and bathrooms were spotless, and the whole home felt lighter and fresher. Super polite team and on time.`,
+        clientName: `–  Brian M. `,
+        subTitle: `Residential Cleaning`,
+        
     },
     {
         id: 2,
         topTitle: "Excellent Convesation",
-        description: `I’ve been using their services for over a year, and they’ve
-            never let me down. The cleaners are punctual, friendly, and incredibly professional.
-            It’s such a relief knowing I can rely on them to take care of my home while I focus on
-            my busy sheduls.`,
-        clientName: `– James T.`,
-        subTitle: `Ui/Ux Designer`,
-        image: aboutSec9
+        description: `Used them for end-of-lease cleaning and the agent was impressed. They got marks off the walls, shower glass sparkling, and the oven looked brand new. Bond returned with no issues.`,
+        clientName: `– Alice C.  `,
+        subTitle: `Residential Cleaning`,
+        
     },
     {
         id: 3,
         topTitle: "Awesome Services",
-        description: `I needed a deep cleaning before hosting a big family event,
-            and they delivered beyond my expectations! The team asked about my specific needs and
-            ensured every corner of my home was spotless. They truly care about their customers and
-            it shows`,
-        clientName: `- Sophia L.`,
-        subTitle: `Web Developer`,
-        image: aboutSec10
+        description: `Carpet steam cleaning was excellent—removed old stains and the smell is gone. They were careful
+         with furniture and explained what they were doing. Would book again.`,
+        clientName: `- Rajat S. `,
+        subTitle: `Specialized Cleaning`,
+         
     },
     {
         id: 4,
@@ -164,20 +154,25 @@ export const testimonialCarosel: TestimonialCarouselitem[] = [
         description: `The cleaning team has been an absolute lifesaver! They go 
             above and beyond to make sure my home looks immaculate. Every surface sparkles, and they
             even take care of the small details that most services overlook. I can’t recommend them enough!`,
-        clientName: `- Sophia L.`,
-        subTitle: `Web Developer`,
-        image: aboutSec11
+        clientName: `- Ozway Consulting`,
+        subTitle: `Commercial Cleaning`,
+         
     },
     {
         id: 5,
         topTitle: "Awesome Services",
-        description: `I needed a deep cleaning before hosting a big family event,
-            and they delivered beyond my expectations! The team asked about my specific needs and
-            ensured every corner of my home was spotless. They truly care about their customers and
-            it shows`,
-        clientName: `- Sophia L.`,
-        subTitle: `Web Developer`,
-        image: aboutSec10
+        description: `Sofa upholstery clean came up better than expected. The sitting area looks refreshed and the fabric feels clean again. Quick service and no mess left behind.`,
+        clientName: `- Zannifer B`,
+        subTitle: `Residential Cleaning`,
+       
+    },
+    {
+        id: 6,
+        topTitle: "Awesome Services",
+        description: `Post-construction clean after our renovation—lots of dust and debris. They handled everything, including windows and corners we didn’t think about. The place was move-in ready`,
+        clientName: `- Syncwaves Group`,
+        subTitle:  `Commercial Cleaning`,
+       
     },
 
 ]

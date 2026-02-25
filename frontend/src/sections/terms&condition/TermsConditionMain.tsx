@@ -1,59 +1,91 @@
-"use client"
-import React, { useState } from 'react';
-import { accordionItems1, accordionItems2 } from '../home-two/contents';
-import AccorditionItemFaq from '@/components/elements/AccorditionItemFaq';
+'use client';
 
+import React from "react";
 
+export default function PrivacyPolicy() {
+  return (
+    <section className="py-4 py-md-5 bg-light">
+      <div className="container">
+        <div className="terms-sheet mx-auto bg-white border rounded-2 p-4 p-md-5">
+          {/* 1. Information We Collect */}
+          <h2 className="terms-title">1. Information We Collect</h2>
+          <p className="terms-text mb-2">We may collect:</p>
+          <ul className="terms-list mb-4"  >
+            <li>Name</li>
+            <li>Contact details</li>
+            <li>Address</li>
+            <li>Service details</li>
+            <li>Payment information</li>
+          </ul>
 
-const TermsConditionMain: React.FC = () => {
-    const [activeAcc, setActiveAcc] = useState<number | null>(2);
+          {/* 2. How We Use Your Information */}
+          <h2 className="terms-title">2. How We Use Your Information</h2>
+          <p className="terms-text mb-2">Your information is used to:</p>
+          <ul className="terms-list mb-4">
+            <li>Provide cleaning services</li>
+            <li>Manage bookings</li>
+            <li>Process payments</li>
+            <li>Send service updates</li>
+            <li>Improve customer experience</li>
+          </ul>
 
-    const handleToggle = (index: number): void => {
-        if (activeAcc === index) {
-            setActiveAcc(null);
-        } else {
-            setActiveAcc(index);
-        }
-    };
+          {/* 3. Data Protection */}
+          <h2 className="terms-title">3. Data Protection</h2>
+          <p className="terms-text mb-4">
+            We take reasonable steps to protect your personal information from misuse, loss,
+            or unauthorized access.
+          </p>
 
-    return (
-        <section className="faq-one faq-page">
-             
-            <div className="container">
-                <div className="row">
-                    <div className="col-xl-6 col-lg-6">
-                        
-                        <div className="faq-page__single">
-                            <div className="accrodion-grp faq-one-accrodion">
-                                {accordionItems1.map((faq, index) => (
-                                    <AccorditionItemFaq
-                                        key={faq.id || index}
-                                        handleToggle={handleToggle}
-                                        faq={faq}
-                                        activeAcc={activeAcc}
-                                    />
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-6 col-lg-6">
-                        <div className="faq-page__single">
-                            <div className="accrodion-grp faq-one-accrodion"  >
-                                {accordionItems2.map((faq, index) => (
-                                    <AccorditionItemFaq
-                                        key={faq.id || index}
-                                        handleToggle={handleToggle}
-                                        faq={faq}
-                                        activeAcc={activeAcc}
-                                    />
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          {/* 4. Sharing of Information */}
+          <h2 className="terms-title">4. Sharing of Information</h2>
+          <p className="terms-text mb-2">
+            We do not sell or rent your personal information.
+            <br />
+            We only share data with:
+          </p>
+          <ul className="terms-sublist mb-4">
+            <li>Payment processors</li>
+            <li>Service staff for booking purposes</li>
+            <li>Legal authorities if required by law</li>
+          </ul>
+
+          {/* 5. Marketing Communication */}
+          <h2 className="terms-title">5. Marketing Communication</h2>
+          <p className="terms-text mb-4">
+            You will only receive promotional content if you opt in. You can unsubscribe at any time.
+          </p>
+
+          {/* 6. Access & Correction */}
+          <h2 className="terms-title">6. Access &amp; Correction</h2>
+          <p className="terms-text mb-4">
+            You may request access to or correction of your personal data by contacting us.
+          </p>
+
+          {/* 7. Cookies & Website Data */}
+          <h2 className="terms-title">7. Cookies &amp; Website Data</h2>
+          <p className="terms-text mb-4">
+            Our website may use cookies to improve user experience and analyze traffic.
+          </p>
+
+          {/* 8. Contact Us */}
+          <h2 className="terms-title">8. Contact Us</h2>
+          <p className="terms-text mb-2">For privacy-related queries:</p>
+
+          <div className="d-flex flex-column gap-2 mt-2">
+            <div className="d-flex align-items-center gap-2 terms-contact">
+              <span className="terms-dot terms-dot-email" aria-hidden="true" />
+              <a className="terms-link" href="mailto:cleansmartcrew@gmail.com">
+                cleansmartcrew@gmail.com
+              </a>
             </div>
-        </section>
-    );
-};
 
-export default TermsConditionMain;
+            <div className="d-flex align-items-center gap-2 terms-contact">
+              <span className="terms-dot terms-dot-location" aria-hidden="true" />
+              <span className="terms-text mb-0">Melbourne, VIC, Australia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

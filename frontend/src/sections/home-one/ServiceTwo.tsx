@@ -40,7 +40,7 @@ const residentialItems: HoverItem[] = [
     id: 1,
     title: "Regular Home Cleaning",
     text1: "Reliable regular home cleaning to keep your living",
-    text2: "space fresh, organized, and consistently clean.",
+    text2: "space fresh, organised, and consistently clean.",
     image: servimg3,
     itemLink: "/regular-home-cleaning",
   },
@@ -176,7 +176,7 @@ const hoverItems: HoverItem[] = [
     text1: "Flexible cleaning solutions tailored to your specific space,",
     text2: "schedule, and service requirements.",
     image: servimg19,
-    itemLink: "/customized-cleaning-plans",
+    itemLink: "/customised-cleaning-plans",
   },
 ];
 
@@ -423,7 +423,7 @@ const ServiceTwo: React.FC = () => {
         </div>
         {/* //section 3 */}
         <div id="special-cleaning">
-          <SectionHeading title="Special Cleaning" />
+          <SectionHeading title="Specialised Cleaning" />
 
           <div className="services-two__inner">
             <ul className="services-two__services-list list-unstyled">

@@ -55,15 +55,12 @@ const TestimonialSlider: React.FC = () => {
                                             <span className="icon-star"></span>
                                             <span className="icon-star"></span>
                                             <span className="icon-star"></span>
-                                            <span className="icon-favorite"></span>
-                                            <span className="icon-favorite"></span>
+                                            <span className="icon-star"></span>
+                                            <span className="icon-star"></span>
+                                             
                                         </div>
                                         <div className="testimonial-two__client-info">
-                                            <div className="testimonial-two__client-img-box">
-                                                <div className="testimonial-two__client-img">
-                                                    <Image src={item?.image} alt="" />
-                                                </div>
-                                            </div>
+                                             
                                             <div className="testimonial-two__client-content">
                                                 <h3 className="testimonial-two__client-name">
                                                     <Link href={"/testimonials"}>{item?.clientName}</Link>

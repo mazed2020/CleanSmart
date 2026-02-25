@@ -805,7 +805,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(180deg, #71b9ff 0%, #71b9ff 100%);
+    background: linear-gradient(180deg, #0056b8 0%, #0056b8 100%);
     opacity: 0;
     transform: translateY(90px);
     transition: background-color 0.7s ease;

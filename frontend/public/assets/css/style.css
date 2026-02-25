@@ -7365,3 +7365,86 @@ ul {
 .xs-sidebar-widget::-webkit-scrollbar {
   width: 0px;
 }
+
+
+/* privecy and policy */
+/* Page-like sheet */
+.terms-sheet {
+  max-width: 780px;          /* similar width to screenshot */
+  box-shadow: 0 0 0 0 rgba(0,0,0,0); /* keep clean like doc */
+}
+
+/* Big bold numbered headings */
+.terms-title {
+  font-size: 1.35rem;        /* similar size */
+  font-weight: 800;
+  margin: 0 0 0.35rem 0;
+  line-height: 1.2;
+  color: #000;
+}
+
+/* Paragraph text */
+.terms-text {
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: #111;
+  margin-bottom: 0;
+}
+
+/* Main bullet list */
+.terms-list {
+  margin: 0;
+  padding-left: 1.35rem;     /* bullet indent */
+  font-size: 0.98rem;
+  color: #111;
+  line-height: 1.5;
+  list-style: square;
+}
+
+/* Sub bullets (indented more) */
+.terms-sublist {
+  margin: 0;
+  padding-left: 2.6rem;      /* deeper indent like screenshot */
+  font-size: 0.98rem;
+  color: #111;
+  line-height: 1.5;
+  list-style-type: circle;   /* optional; screenshot looks like nested bullets */
+}
+
+/* Keep bullet spacing similar */
+.terms-list li,
+.terms-sublist li {
+  margin-bottom: 0.25rem;
+}
+
+/* terms and condition  */
+/* Contact rows at bottom */
+.terms-contact {
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+/* Simple small icon dots (so you don't need extra icon libraries) */
+.terms-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.terms-dot-email {
+  background: #3b82f6; /* small blue dot */
+}
+
+.terms-dot-location {
+  background: #ec4899; /* small pink dot */
+}
+
+.terms-link {
+  color: #111;
+  text-decoration: none;
+}
+
+.terms-link:hover {
+  text-decoration: underline;
+}
